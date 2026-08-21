@@ -1,7 +1,18 @@
 ---
 import { getCollection } from 'astro:content';
 
-const products = await getCollection('products');
+const allProducts = await getCollection('products');
+const products = allProducts.filter((product) => !product.data.incomplete);
+
+const categories = [
+	{ slug: 'laczniki-do-drewna', label: 'Łączniki do drewna' },
+	{ slug: 'tasmy-montazowe', label: 'Taśmy montażowe' },
+	{ slug: 'zlacza-ogrodowe', label: 'Złącza ogrodowe' },
+	{ slug: 'zawiasy', label: 'Zawiasy' },
+	{ slug: 'inne', label: 'Inne' },
+] as const;
+
+const byCategory = Map.groupBy(products, (product) => product.data.category);
 ---
 
 <html lang="it">
@@ -10,17 +21,23 @@ const products = await getCollection('products');
 		<title>Catalogo — ObroNOW</title>
 	</head>
 	<body>
-		<h1>Catalogo cerniere</h1>
-		<ul>
-			{products.map((product) => (
-				<li>
-					<strong>{product.data.name}</strong>
-					— {product.data.category} / {product.data.material}
-					{product.data.dimensions.maxLoadKg && (
-						<span> — portata max {product.data.dimensions.maxLoadKg} kg</span>
-					)}
-				</li>
-			))}
-		</ul>
+		<h1>Catalogo prodotti</h1>
+		{categories.map(({ slug: category, label }) => {
+			const items = byCategory.get(category) ?? [];
+			if (items.length === 0) return null;
+			return (
+				<section>
+					<h2>{label}</h2>
+					<ul>
+						{items.map((product) => (
+							<li>
+								<strong>{product.data.title}</strong>
+								— {product.data.variants.length} varianti
+							</li>
+						))}
+					</ul>
+				</section>
+			);
+		})}
 	</body>
 </html>

@@ -1,23 +1,42 @@
 import { defineCollection, z } from 'astro:content';
-import { glob } from 'astro/loaders';
+import { file } from 'astro/loaders';
 
+// Product data migrated from the legacy obro.pl catalog (see
+// scripts/migrate-legacy-catalog.mjs). Each entry is a product family
+// (e.g. "PM - płytka montażowa") with one or more SKU variants; the
+// dimension columns differ per family, so variant dimensions are a
+// free-form record rather than fixed fields.
 const products = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/products' }),
+  loader: file('./src/content/products/legacy-catalog.json'),
   schema: z.object({
-    name: z.string(),
-    category: z.enum(['saldare', 'avvitare', 'regolabili', 'a-scomparsa']),
-    material: z.enum(['acciaio-zincato', 'acciaio-inox', 'ferro-battuto', 'ottone']),
-    dimensions: z.object({
-      pinDiameterMm: z.number().optional(),
-      heightMm: z.number().optional(),
-      maxLoadKg: z.number().optional(),
-    }),
-    compatibility: z.array(z.string()),
-    // Path relativi a /public — passeremo a immagini ottimizzate (helper image())
-    // quando avremo gli asset reali del sito attuale.
-    images: z.array(z.string()),
-    datasheetPdf: z.string().optional(),
-    featured: z.boolean().default(false),
+    id: z.string(),
+    slug: z.string(),
+    title: z.string(),
+    titleParts: z.array(z.string()),
+    category: z.enum([
+      'laczniki-do-drewna',
+      'tasmy-montazowe',
+      'zlacza-ogrodowe',
+      'zawiasy',
+      'inne',
+    ]),
+    images: z.array(
+      z.object({
+        kind: z.enum(['photo', 'technical', 'installation']),
+        path: z.string(),
+      })
+    ),
+    dimensionColumns: z.array(z.string()),
+    variants: z.array(
+      z.object({
+        sku: z.string(),
+        dimensions: z.record(z.string(), z.string()),
+        packageQty: z.string(),
+      })
+    ),
+    // True for legacy pages with photos but no SKU/dimension table
+    // (e.g. katalog-58, katalog-59) — need manual review before publishing.
+    incomplete: z.boolean().default(false),
   }),
 });
 
