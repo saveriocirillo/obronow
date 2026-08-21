@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+
+const products = await getCollection('products');
+---
+
+<html lang="it">
+	<head>
+		<meta charset="utf-8" />
+		<title>Catalogo — ObroNOW</title>
+	</head>
+	<body>
+		<h1>Catalogo cerniere</h1>
+		<ul>
+			{products.map((product) => (
+				<li>
+					<strong>{product.data.name}</strong>
+					— {product.data.category} / {product.data.material}
+					{product.data.dimensions.maxLoadKg && (
+						<span> — portata max {product.data.dimensions.maxLoadKg} kg</span>
+					)}
+				</li>
+			))}
+		</ul>
+	</body>
+</html>
