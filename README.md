@@ -1,43 +1,36 @@
-# Astro Starter Kit: Minimal
+# ObroNOW — Restyling sito
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Restyling del sito di un produttore di cerniere per cancelli. Progetto usato anche per imparare architettura, design system e modellazione dati.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Stack
 
-## 🚀 Project Structure
+- **[Astro](https://astro.build)** in modalità SSG (static site generation) — le pagine sono generate come HTML statico in fase di build, non ad ogni richiesta. Ottimo per SEO e performance; ogni aggiornamento contenuti richiede un nuovo deploy.
+- **Deploy target**: Vercel (deploy automatico da GitHub, preview per ogni PR).
 
-Inside of your Astro project, you'll see the following folders and files:
+## Struttura
 
 ```text
 /
-├── public/
+├── public/          # asset statici (immagini, PDF schede tecniche, ecc.)
 ├── src/
-│   └── pages/
-│       └── index.astro
+│   └── pages/        # ogni file .astro/.md qui diventa una route
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Comandi
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+| Comando           | Azione                                      |
+| ------------------ | -------------------------------------------- |
+| `npm install`       | Installa le dipendenze                       |
+| `npm run dev`       | Avvia il dev server su `localhost:4321`      |
+| `npm run build`     | Build di produzione in `./dist/`             |
+| `npm run preview`   | Preview della build in locale prima del deploy |
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Roadmap
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- [ ] Raccogliere contenuti e asset del sito attuale
+- [ ] Definire schema dati del catalogo prodotti (content collections Astro)
+- [ ] Bozza wireframe / design system (componenti riusabili: card prodotto, nav, footer)
+- [ ] Pagine: Home, Catalogo, Scheda prodotto, Chi siamo, Contatti
+- [ ] Structured data SEO (schema.org `Product`) sulle schede prodotto
+- [ ] Collegare il repo a Vercel per il deploy automatico
