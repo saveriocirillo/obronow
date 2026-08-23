@@ -29,17 +29,53 @@ const thumbnail = (product: (typeof products)[number]) =>
 		}
 
 		.category-section {
-			padding-block: 1rem 3rem;
-		}
-		.category-section h2 {
-			font-size: 1.4rem;
-			margin-bottom: 1.25rem;
-			padding-top: 1.5rem;
 			border-top: 1px solid var(--color-steel-line);
 		}
-		.category-section:first-of-type h2 {
-			border-top: none;
-			padding-top: 0;
+		.category-section:last-of-type {
+			border-bottom: 1px solid var(--color-steel-line);
+		}
+		.category-summary {
+			list-style: none;
+			cursor: pointer;
+		}
+		.category-summary::-webkit-details-marker {
+			display: none;
+		}
+		.category-summary-row {
+			padding-block: 1.5rem;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 1rem;
+		}
+		.category-summary:hover h2 {
+			color: var(--color-accent);
+		}
+		.category-summary h2 {
+			font-size: 1.3rem;
+			margin: 0;
+			transition: color 0.15s ease;
+		}
+		.category-summary .count {
+			font-size: 0.85rem;
+			font-weight: 500;
+			color: var(--color-ink-soft);
+		}
+		.category-summary .head {
+			display: flex;
+			align-items: baseline;
+			gap: 0.6rem;
+		}
+		.chevron {
+			flex-shrink: 0;
+			transition: transform 0.2s ease;
+			color: var(--color-ink-soft);
+		}
+		details[open] > .category-summary .chevron {
+			transform: rotate(180deg);
+		}
+		.category-section .product-grid {
+			padding-bottom: 3rem;
 		}
 
 		.product-grid {
@@ -98,13 +134,23 @@ const thumbnail = (product: (typeof products)[number]) =>
 		<p>{products.length} rodzin produktów w {categories.length} kategoriach, pochodzących z pełnej oferty OBRO.</p>
 	</div>
 
-	{categories.map(({ slug: category, label }) => {
+	{categories.map(({ slug: category, label }, index) => {
 		const items = byCategory.get(category) ?? [];
 		if (items.length === 0) return null;
 		return (
-			<section class="category-section">
+			<details class="category-section" open={index === 0}>
+				<summary class="category-summary">
+					<div class="container category-summary-row">
+						<div class="head">
+							<h2>{label}</h2>
+							<span class="count">{items.length} rodzin</span>
+						</div>
+						<svg class="chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+							<path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</div>
+				</summary>
 				<div class="container">
-					<h2>{label}</h2>
 					<div class="product-grid">
 						{items.map((product) => {
 							const thumb = thumbnail(product);
@@ -126,7 +172,7 @@ const thumbnail = (product: (typeof products)[number]) =>
 						})}
 					</div>
 				</div>
-			</section>
+			</details>
 		);
 	})}
 </BaseLayout>
