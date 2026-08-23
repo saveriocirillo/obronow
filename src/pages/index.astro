@@ -1,5 +1,5 @@
 ---
-import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 const allProducts = await getCollection('products');
@@ -27,377 +27,284 @@ const milestones = [
 ];
 ---
 
-<html lang="pl">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="generator" content={Astro.generator} />
-		<meta
-			name="description"
-			content="OBRO — producent łączników i okuć budowlanych z Krakowa. Tradycje sięgające 1957 roku, kilkaset wyrobów: łączniki do drewna, taśmy montażowe, złącza ogrodowe, zawiasy i inne."
-		/>
-		<title>OBRO — Producent łączników i okuć budowlanych</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap"
-			rel="stylesheet"
-		/>
-		<style>
-			.site-header {
-				position: sticky;
-				top: 0;
-				z-index: 10;
-				background: color-mix(in srgb, var(--color-paper) 92%, transparent);
-				backdrop-filter: blur(6px);
-				border-bottom: 1px solid var(--color-steel-line);
-			}
-			.site-header .container {
-				display: flex;
-				align-items: center;
-				justify-content: space-between;
-				padding-block: 1.1rem;
-			}
-			.wordmark {
-				font-family: var(--font-display);
-				font-weight: 700;
-				font-size: 1.4rem;
-				letter-spacing: 0.02em;
-				text-decoration: none;
-				color: var(--color-ink);
-			}
-			.wordmark span {
-				color: var(--color-accent);
-			}
-			.site-nav {
-				display: flex;
-				gap: 1.75rem;
-				list-style: none;
-				margin: 0;
-				padding: 0;
-			}
-			.site-nav a {
-				text-decoration: none;
-				font-size: 0.95rem;
-				font-weight: 500;
-				color: var(--color-ink-soft);
-			}
-			.site-nav a:hover {
-				color: var(--color-accent);
-			}
+<BaseLayout
+	title="OBRO — Producent łączników i okuć budowlanych"
+	description="OBRO — producent łączników i okuć budowlanych z Krakowa. Tradycje sięgające 1957 roku, kilkaset wyrobów: łączniki do drewna, taśmy montażowe, złącza ogrodowe, zawiasy i inne."
+>
+	<style>
+		.hero {
+			padding-block: 5rem 4rem;
+		}
+		.hero-inner {
+			max-width: 40rem;
+		}
+		.eyebrow {
+			display: inline-block;
+			font-size: 0.8rem;
+			font-weight: 600;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			color: var(--color-accent-dark);
+			background: var(--color-accent-ink);
+			padding: 0.3rem 0.7rem;
+			border-radius: 999px;
+			margin-bottom: 1.25rem;
+		}
+		.hero h1 {
+			font-size: clamp(2.2rem, 4vw, 3.2rem);
+			font-weight: 700;
+		}
+		.hero p.lead {
+			font-size: 1.15rem;
+			color: var(--color-ink-soft);
+			max-width: 36rem;
+		}
+		.hero-actions {
+			display: flex;
+			gap: 1rem;
+			margin-top: 2rem;
+			flex-wrap: wrap;
+		}
+		.btn {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.5rem;
+			padding: 0.75rem 1.4rem;
+			border-radius: var(--radius);
+			font-weight: 600;
+			font-size: 0.95rem;
+			text-decoration: none;
+			border: 1px solid transparent;
+		}
+		.btn-primary {
+			background: var(--color-accent);
+			color: #fff;
+		}
+		.btn-primary:hover {
+			background: var(--color-accent-dark);
+		}
+		.btn-ghost {
+			border-color: var(--color-steel-line);
+			color: var(--color-ink);
+		}
+		.btn-ghost:hover {
+			border-color: var(--color-ink-soft);
+		}
 
-			.hero {
-				padding-block: 5rem 4rem;
-			}
-			.hero-inner {
-				max-width: 40rem;
-			}
-			.eyebrow {
-				display: inline-block;
-				font-size: 0.8rem;
-				font-weight: 600;
-				letter-spacing: 0.08em;
-				text-transform: uppercase;
-				color: var(--color-accent-dark);
-				background: var(--color-accent-ink);
-				padding: 0.3rem 0.7rem;
-				border-radius: 999px;
-				margin-bottom: 1.25rem;
-			}
-			.hero h1 {
-				font-size: clamp(2.2rem, 4vw, 3.2rem);
-				font-weight: 700;
-			}
-			.hero p.lead {
-				font-size: 1.15rem;
-				color: var(--color-ink-soft);
-				max-width: 36rem;
-			}
-			.hero-actions {
-				display: flex;
-				gap: 1rem;
-				margin-top: 2rem;
-				flex-wrap: wrap;
-			}
-			.btn {
-				display: inline-flex;
-				align-items: center;
-				gap: 0.5rem;
-				padding: 0.75rem 1.4rem;
-				border-radius: var(--radius);
-				font-weight: 600;
-				font-size: 0.95rem;
-				text-decoration: none;
-				border: 1px solid transparent;
-			}
-			.btn-primary {
-				background: var(--color-accent);
-				color: #fff;
-			}
-			.btn-primary:hover {
-				background: var(--color-accent-dark);
-			}
-			.btn-ghost {
-				border-color: var(--color-steel-line);
-				color: var(--color-ink);
-			}
-			.btn-ghost:hover {
-				border-color: var(--color-ink-soft);
-			}
+		.stats {
+			background: var(--color-ink);
+			color: var(--color-paper);
+		}
+		.stats .container {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+			gap: 2rem;
+			padding-block: 3rem;
+		}
+		.stat dd {
+			font-family: var(--font-display);
+			font-size: 2.4rem;
+			font-weight: 700;
+			margin: 0;
+			color: var(--color-accent);
+		}
+		.stat dt {
+			font-size: 0.9rem;
+			color: color-mix(in srgb, var(--color-paper) 70%, transparent);
+			margin-top: 0.35rem;
+		}
 
-			.stats {
-				background: var(--color-ink);
-				color: var(--color-paper);
-			}
-			.stats .container {
-				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
-				gap: 2rem;
-				padding-block: 3rem;
-			}
-			.stat dd {
-				font-family: var(--font-display);
-				font-size: 2.4rem;
-				font-weight: 700;
-				margin: 0;
-				color: var(--color-accent);
-			}
-			.stat dt {
-				font-size: 0.9rem;
-				color: color-mix(in srgb, var(--color-paper) 70%, transparent);
-				margin-top: 0.35rem;
-			}
+		section.section {
+			padding-block: 4.5rem;
+		}
+		.section-heading {
+			max-width: 34rem;
+			margin-bottom: 2.5rem;
+		}
+		.section-heading h2 {
+			font-size: clamp(1.6rem, 3vw, 2.2rem);
+		}
+		.section-heading p {
+			color: var(--color-ink-soft);
+		}
 
-			section.section {
-				padding-block: 4.5rem;
-			}
-			.section-heading {
-				max-width: 34rem;
-				margin-bottom: 2.5rem;
-			}
-			.section-heading h2 {
-				font-size: clamp(1.6rem, 3vw, 2.2rem);
-			}
-			.section-heading p {
-				color: var(--color-ink-soft);
-			}
+		.history-grid {
+			display: grid;
+			grid-template-columns: 1.1fr 1fr;
+			gap: 3rem;
+			align-items: start;
+		}
+		.history-copy p {
+			color: var(--color-ink-soft);
+		}
+		.timeline {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			border-left: 2px solid var(--color-steel-line);
+		}
+		.timeline li {
+			position: relative;
+			padding: 0 0 1.75rem 1.5rem;
+		}
+		.timeline li::before {
+			content: '';
+			position: absolute;
+			left: -7px;
+			top: 0.2rem;
+			width: 12px;
+			height: 12px;
+			border-radius: 50%;
+			background: var(--color-accent);
+		}
+		.timeline .year {
+			display: block;
+			font-family: var(--font-display);
+			font-weight: 700;
+			color: var(--color-ink);
+			margin-bottom: 0.2rem;
+		}
+		.timeline .desc {
+			color: var(--color-ink-soft);
+			font-size: 0.95rem;
+		}
 
+		.factory {
+			background: var(--color-steel);
+		}
+		.factory-placeholder {
+			border: 2px dashed var(--color-steel-line);
+			border-radius: var(--radius);
+			background: var(--color-paper-raised);
+			padding: 3.5rem 2rem;
+			text-align: center;
+			color: var(--color-ink-soft);
+		}
+		.factory-placeholder .icon {
+			font-size: 2rem;
+			margin-bottom: 0.75rem;
+		}
+
+		.cta {
+			background: var(--color-ink);
+			color: var(--color-paper);
+			text-align: center;
+		}
+		.cta h2 {
+			color: #fff;
+		}
+		.cta p {
+			color: color-mix(in srgb, var(--color-paper) 75%, transparent);
+			max-width: 32rem;
+			margin: 0 auto 1.5em;
+		}
+
+		@media (max-width: 800px) {
 			.history-grid {
-				display: grid;
-				grid-template-columns: 1.1fr 1fr;
-				gap: 3rem;
-				align-items: start;
+				grid-template-columns: 1fr;
 			}
-			.history-copy p {
-				color: var(--color-ink-soft);
-			}
-			.timeline {
-				list-style: none;
-				margin: 0;
-				padding: 0;
-				border-left: 2px solid var(--color-steel-line);
-			}
-			.timeline li {
-				position: relative;
-				padding: 0 0 1.75rem 1.5rem;
-			}
-			.timeline li::before {
-				content: '';
-				position: absolute;
-				left: -7px;
-				top: 0.2rem;
-				width: 12px;
-				height: 12px;
-				border-radius: 50%;
-				background: var(--color-accent);
-			}
-			.timeline .year {
-				display: block;
-				font-family: var(--font-display);
-				font-weight: 700;
-				color: var(--color-ink);
-				margin-bottom: 0.2rem;
-			}
-			.timeline .desc {
-				color: var(--color-ink-soft);
-				font-size: 0.95rem;
-			}
+		}
+	</style>
 
-			.factory {
-				background: var(--color-steel);
-			}
-			.factory-placeholder {
-				border: 2px dashed var(--color-steel-line);
-				border-radius: var(--radius);
-				background: var(--color-paper-raised);
-				padding: 3.5rem 2rem;
-				text-align: center;
-				color: var(--color-ink-soft);
-			}
-			.factory-placeholder .icon {
-				font-size: 2rem;
-				margin-bottom: 0.75rem;
-			}
-
-			.cta {
-				background: var(--color-ink);
-				color: var(--color-paper);
-				text-align: center;
-			}
-			.cta h2 {
-				color: #fff;
-			}
-			.cta p {
-				color: color-mix(in srgb, var(--color-paper) 75%, transparent);
-				max-width: 32rem;
-				margin: 0 auto 1.5em;
-			}
-
-			.site-footer {
-				border-top: 1px solid var(--color-steel-line);
-				padding-block: 2rem;
-			}
-			.site-footer .container {
-				display: flex;
-				justify-content: space-between;
-				flex-wrap: wrap;
-				gap: 1rem;
-				font-size: 0.85rem;
-				color: var(--color-ink-soft);
-			}
-
-			@media (max-width: 800px) {
-				.site-nav {
-					gap: 1rem;
-				}
-				.history-grid {
-					grid-template-columns: 1fr;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<header class="site-header">
-			<div class="container">
-				<a class="wordmark" href="#hero">OBR<span>O</span></a>
-				<ul class="site-nav">
-					<li><a href="#o-nas">O nas</a></li>
-					<li><a href="#zaklad">Zakład</a></li>
-					<li><a href="/catalogo">Katalog</a></li>
-				</ul>
+	<section class="hero" id="hero">
+		<div class="container hero-inner">
+			<span class="eyebrow">Od 1957 roku</span>
+			<h1>Producent łączników i okuć budowlanych</h1>
+			<p class="lead">
+				Jesteśmy producentem łączników i okuć budowlanych z Krakowa. W naszej ofercie
+				znajduje się kilkaset wyrobów — łączniki do drewna, taśmy montażowe, złącza
+				ogrodowe, zawiasy oraz wiele innych elementów, wytwarzanych z zastosowaniem
+				nowoczesnych technologii produkcyjnych.
+			</p>
+			<div class="hero-actions">
+				<a class="btn btn-primary" href="/catalogo">Zobacz katalog</a>
+				<a class="btn btn-ghost" href="#o-nas">Poznaj naszą historię</a>
 			</div>
-		</header>
+		</div>
+	</section>
 
-		<main>
-			<section class="hero" id="hero">
-				<div class="container hero-inner">
-					<span class="eyebrow">Od 1957 roku</span>
-					<h1>Producent łączników i okuć budowlanych</h1>
-					<p class="lead">
-						Jesteśmy producentem łączników i okuć budowlanych z Krakowa. W naszej ofercie
-						znajduje się kilkaset wyrobów — łączniki do drewna, taśmy montażowe, złącza
-						ogrodowe, zawiasy oraz wiele innych elementów, wytwarzanych z zastosowaniem
-						nowoczesnych technologii produkcyjnych.
-					</p>
-					<div class="hero-actions">
-						<a class="btn btn-primary" href="/catalogo">Zobacz katalog</a>
-						<a class="btn btn-ghost" href="#o-nas">Poznaj naszą historię</a>
-					</div>
-				</div>
-			</section>
+	<section class="stats">
+		<dl class="container">
+			<div class="stat">
+				<dd>1957</dd>
+				<dt>Rok założenia</dt>
+			</div>
+			<div class="stat">
+				<dd>{products.length}</dd>
+				<dt>Rodzin produktów</dt>
+			</div>
+			<div class="stat">
+				<dd>{totalVariants}</dd>
+				<dt>Wariantów w katalogu</dt>
+			</div>
+			<div class="stat">
+				<dd>{totalCategories}</dd>
+				<dt>Kategorii produktów</dt>
+			</div>
+		</dl>
+	</section>
 
-			<section class="stats">
-				<dl class="container">
-					<div class="stat">
-						<dd>1957</dd>
-						<dt>Rok założenia</dt>
-					</div>
-					<div class="stat">
-						<dd>{products.length}</dd>
-						<dt>Rodzin produktów</dt>
-					</div>
-					<div class="stat">
-						<dd>{totalVariants}</dd>
-						<dt>Wariantów w katalogu</dt>
-					</div>
-					<div class="stat">
-						<dd>{totalCategories}</dd>
-						<dt>Kategorii produktów</dt>
-					</div>
-				</dl>
-			</section>
-
-			<section class="section" id="o-nas">
-				<div class="container">
-					<div class="section-heading">
-						<h2>O nas</h2>
-						<p>
-							Tradycje firmy OBRO (Okucia Budowlane Ryszard Obłój) sięgają roku 1957, kiedy
-							to po okresie stalinowskim pojawiły się możliwości założenia własnej firmy.
-						</p>
-					</div>
-					<div class="history-grid">
-						<div class="history-copy">
-							<p>
-								Początkowo firma wytwarzała na maszynach ręcznych drobną galanterię
-								metalową powszechnego użytku: małe zawiasy i uchwyty meblowe, rozwijając
-								powoli zakres produkcji. Początkowo działała na rynku regionalnym, później
-								na terenie całej Polski.
-							</p>
-							<p>
-								Ciągły rozwój spowodował, że obecnie firma posiada duży i wszechstronny
-								potencjał maszynowy i technologiczny do produkcji okuć budowlanych, np.
-								prasy o nacisku 160 T. Obecny program to kilkaset wyrobów, a aprobata
-								techniczna jest ciągle rozszerzana i aktualizowana.
-							</p>
-							<p>
-								Działamy na terenie całej Polski i wybranych regionach krajów ościennych.
-								Jesteśmy otwarci na każdą współpracę i serdecznie do niej zapraszamy.
-							</p>
-						</div>
-						<ol class="timeline">
-							{milestones.map((m) => (
-								<li>
-									<span class="year">{m.year}</span>
-									<span class="desc">{m.text}</span>
-								</li>
-							))}
-						</ol>
-					</div>
-				</div>
-			</section>
-
-			<section class="section factory" id="zaklad">
-				<div class="container">
-					<div class="section-heading">
-						<h2>Nasz zakład produkcyjny</h2>
-						<p>Zdjęcia z hali produkcyjnej pojawią się tutaj wkrótce.</p>
-					</div>
-					<div class="factory-placeholder">
-						<div class="icon">🏭</div>
-						<p style="margin:0;">Galeria zdjęć zakładu — w przygotowaniu.</p>
-					</div>
-				</div>
-			</section>
-
-			<section class="section cta">
-				<div class="container">
-					<h2>Sprawdź pełny katalog produktów</h2>
+	<section class="section" id="o-nas">
+		<div class="container">
+			<div class="section-heading">
+				<h2>O nas</h2>
+				<p>
+					Tradycje firmy OBRO (Okucia Budowlane Ryszard Obłój) sięgają roku 1957, kiedy
+					to po okresie stalinowskim pojawiły się możliwości założenia własnej firmy.
+				</p>
+			</div>
+			<div class="history-grid">
+				<div class="history-copy">
 					<p>
-						{products.length} rodzin produktów i {totalVariants} wariantów — łączniki do
-						drewna, taśmy montażowe, złącza ogrodowe, zawiasy i inne.
+						Początkowo firma wytwarzała na maszynach ręcznych drobną galanterię
+						metalową powszechnego użytku: małe zawiasy i uchwyty meblowe, rozwijając
+						powoli zakres produkcji. Początkowo działała na rynku regionalnym, później
+						na terenie całej Polski.
 					</p>
-					<a class="btn btn-primary" href="/catalogo">Przeglądaj katalog</a>
+					<p>
+						Ciągły rozwój spowodował, że obecnie firma posiada duży i wszechstronny
+						potencjał maszynowy i technologiczny do produkcji okuć budowlanych, np.
+						prasy o nacisku 160 T. Obecny program to kilkaset wyrobów, a aprobata
+						techniczna jest ciągle rozszerzana i aktualizowana.
+					</p>
+					<p>
+						Działamy na terenie całej Polski i wybranych regionach krajów ościennych.
+						Jesteśmy otwarci na każdą współpracę i serdecznie do niej zapraszamy.
+					</p>
 				</div>
-			</section>
-		</main>
-
-		<footer class="site-footer">
-			<div class="container">
-				<span>&copy; OBRO</span>
-				<span>Kraków, Polska</span>
+				<ol class="timeline">
+					{milestones.map((m) => (
+						<li>
+							<span class="year">{m.year}</span>
+							<span class="desc">{m.text}</span>
+						</li>
+					))}
+				</ol>
 			</div>
-		</footer>
-	</body>
-</html>
+		</div>
+	</section>
+
+	<section class="section factory" id="zaklad">
+		<div class="container">
+			<div class="section-heading">
+				<h2>Nasz zakład produkcyjny</h2>
+				<p>Zdjęcia z hali produkcyjnej pojawią się tutaj wkrótce.</p>
+			</div>
+			<div class="factory-placeholder">
+				<div class="icon">🏭</div>
+				<p style="margin:0;">Galeria zdjęć zakładu — w przygotowaniu.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="section cta">
+		<div class="container">
+			<h2>Sprawdź pełny katalog produktów</h2>
+			<p>
+				{products.length} rodzin produktów i {totalVariants} wariantów — łączniki do
+				drewna, taśmy montażowe, złącza ogrodowe, zawiasy i inne.
+			</p>
+			<a class="btn btn-primary" href="/catalogo">Przeglądaj katalog</a>
+		</div>
+	</section>
+</BaseLayout>

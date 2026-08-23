@@ -1,0 +1,205 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { categoryLabel } from '../../lib/categories';
+
+export async function getStaticPaths() {
+	const allProducts = await getCollection('products');
+	const products = allProducts.filter((product) => !product.data.incomplete);
+	return products.map((product) => ({
+		params: { slug: product.data.slug },
+		props: { product },
+	}));
+}
+
+const { product } = Astro.props;
+const { title, titleParts, category, images, dimensionColumns, variants } = product.data;
+
+const imageGroups: { kind: string; label: string; items: typeof images }[] = [
+	{ kind: 'photo', label: 'Zdjęcie', items: images.filter((i) => i.kind === 'photo') },
+	{ kind: 'technical', label: 'Rysunek techniczny', items: images.filter((i) => i.kind === 'technical') },
+	{ kind: 'installation', label: 'Montaż', items: images.filter((i) => i.kind === 'installation') },
+].filter((g) => g.items.length > 0);
+---
+
+<BaseLayout title={`${title} — OBRO`} description={`${title} — dane techniczne i warianty w katalogu OBRO.`}>
+	<style>
+		.breadcrumb {
+			padding-block: 1.5rem 0;
+			font-size: 0.85rem;
+			color: var(--color-ink-soft);
+		}
+		.breadcrumb a {
+			text-decoration: none;
+			color: var(--color-ink-soft);
+		}
+		.breadcrumb a:hover {
+			color: var(--color-accent);
+		}
+
+		.product-header {
+			padding-block: 1.5rem 2.5rem;
+		}
+		.product-header h1 {
+			font-size: clamp(1.7rem, 3.5vw, 2.3rem);
+		}
+		.product-header .sku-list {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.5rem;
+			margin-top: 0.75rem;
+		}
+		.product-header .sku-list span {
+			font-size: 0.8rem;
+			font-weight: 600;
+			color: var(--color-accent-dark);
+			background: var(--color-accent-ink);
+			padding: 0.2rem 0.6rem;
+			border-radius: 999px;
+		}
+
+		.image-groups {
+			display: flex;
+			flex-direction: column;
+			gap: 2rem;
+			padding-block: 0 2.5rem;
+		}
+		.image-group h2 {
+			font-size: 0.9rem;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+			color: var(--color-ink-soft);
+			margin-bottom: 0.75rem;
+		}
+		.image-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(15rem, 19rem));
+			gap: 1rem;
+		}
+		.image-grid figure {
+			margin: 0;
+			background: var(--color-paper-raised);
+			border: 1px solid var(--color-steel-line);
+			border-radius: var(--radius);
+			overflow: hidden;
+		}
+		.image-grid img {
+			width: 100%;
+			aspect-ratio: 4 / 3;
+			object-fit: contain;
+			background: var(--color-steel);
+		}
+
+		.variants-section {
+			padding-block: 0 4rem;
+		}
+		.variants-section h2 {
+			font-size: 1.2rem;
+			margin-bottom: 1rem;
+		}
+		.variants-note {
+			font-size: 0.85rem;
+			color: var(--color-ink-soft);
+			margin-bottom: 1rem;
+		}
+		.table-scroll {
+			overflow-x: auto;
+			border: 1px solid var(--color-steel-line);
+			border-radius: var(--radius);
+		}
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			font-size: 0.9rem;
+			background: var(--color-paper-raised);
+		}
+		th, td {
+			padding: 0.65rem 0.9rem;
+			text-align: left;
+			white-space: nowrap;
+			border-bottom: 1px solid var(--color-steel-line);
+		}
+		thead th {
+			font-size: 0.78rem;
+			text-transform: uppercase;
+			letter-spacing: 0.03em;
+			color: var(--color-ink-soft);
+			background: var(--color-steel);
+		}
+		tbody tr:last-child td {
+			border-bottom: none;
+		}
+		td.sku {
+			font-weight: 600;
+			font-family: var(--font-display);
+		}
+
+		.back-link {
+			display: inline-block;
+			margin-top: 1rem;
+			font-size: 0.9rem;
+			text-decoration: none;
+			color: var(--color-ink-soft);
+		}
+		.back-link:hover {
+			color: var(--color-accent);
+		}
+	</style>
+
+	<nav class="container breadcrumb">
+		<a href="/catalogo">Katalog</a> / {categoryLabel(category)}
+	</nav>
+
+	<div class="container product-header">
+		<h1>{title}</h1>
+		{titleParts.length > 1 && (
+			<div class="sku-list">
+				{titleParts.map((part) => <span>{part.split(' - ')[0]}</span>)}
+			</div>
+		)}
+	</div>
+
+	{imageGroups.length > 0 && (
+		<div class="container image-groups">
+			{imageGroups.map((group) => (
+				<div class="image-group">
+					<h2>{group.label}</h2>
+					<div class="image-grid">
+						{group.items.map((img) => (
+							<figure>
+								<img src={img.path} alt={`${title} — ${group.label.toLowerCase()}`} loading="lazy" />
+							</figure>
+						))}
+					</div>
+				</div>
+			))}
+		</div>
+	)}
+
+	<div class="container variants-section">
+		<h2>Warianty</h2>
+		<p class="variants-note">Wymiary w mm, ilość wg standardowego opakowania.</p>
+		<div class="table-scroll">
+			<table>
+				<thead>
+					<tr>
+						<th>Nr katalogowy</th>
+						{dimensionColumns.map((col) => <th>{col}</th>)}
+						<th>Ilość</th>
+					</tr>
+				</thead>
+				<tbody>
+					{variants.map((variant) => (
+						<tr>
+							<td class="sku">{variant.sku}</td>
+							{dimensionColumns.map((col) => <td>{variant.dimensions[col] ?? '—'}</td>)}
+							<td>{variant.packageQty}</td>
+						</tr>
+					))}
+				</tbody>
+			</table>
+		</div>
+		<a class="back-link" href="/catalogo">← Wróć do katalogu</a>
+	</div>
+</BaseLayout>

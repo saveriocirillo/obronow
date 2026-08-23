@@ -1,43 +1,132 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { categories } from '../lib/categories';
 
 const allProducts = await getCollection('products');
 const products = allProducts.filter((product) => !product.data.incomplete);
 
-const categories = [
-	{ slug: 'laczniki-do-drewna', label: 'Łączniki do drewna' },
-	{ slug: 'tasmy-montazowe', label: 'Taśmy montażowe' },
-	{ slug: 'zlacza-ogrodowe', label: 'Złącza ogrodowe' },
-	{ slug: 'zawiasy', label: 'Zawiasy' },
-	{ slug: 'inne', label: 'Inne' },
-] as const;
-
 const byCategory = Map.groupBy(products, (product) => product.data.category);
+
+const thumbnail = (product: (typeof products)[number]) =>
+	product.data.images.find((img) => img.kind === 'photo')?.path ?? product.data.images[0]?.path;
 ---
 
-<html lang="it">
-	<head>
-		<meta charset="utf-8" />
-		<title>Catalogo — ObroNOW</title>
-	</head>
-	<body>
-		<h1>Catalogo prodotti</h1>
-		{categories.map(({ slug: category, label }) => {
-			const items = byCategory.get(category) ?? [];
-			if (items.length === 0) return null;
-			return (
-				<section>
+<BaseLayout
+	title="Katalog produktów — OBRO"
+	description="Pełny katalog produktów OBRO: łączniki do drewna, taśmy montażowe, złącza ogrodowe, zawiasy i inne okucia budowlane."
+>
+	<style>
+		.page-header {
+			padding-block: 3.5rem 2.5rem;
+		}
+		.page-header h1 {
+			font-size: clamp(2rem, 4vw, 2.6rem);
+		}
+		.page-header p {
+			color: var(--color-ink-soft);
+			max-width: 34rem;
+		}
+
+		.category-section {
+			padding-block: 1rem 3rem;
+		}
+		.category-section h2 {
+			font-size: 1.4rem;
+			margin-bottom: 1.25rem;
+			padding-top: 1.5rem;
+			border-top: 1px solid var(--color-steel-line);
+		}
+		.category-section:first-of-type h2 {
+			border-top: none;
+			padding-top: 0;
+		}
+
+		.product-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+			gap: 1.25rem;
+		}
+		.product-card {
+			display: flex;
+			flex-direction: column;
+			text-decoration: none;
+			color: var(--color-ink);
+			background: var(--color-paper-raised);
+			border: 1px solid var(--color-steel-line);
+			border-radius: var(--radius);
+			overflow: hidden;
+			transition: border-color 0.15s ease, transform 0.15s ease;
+		}
+		.product-card:hover {
+			border-color: var(--color-accent);
+			transform: translateY(-2px);
+		}
+		.product-card .thumb {
+			aspect-ratio: 4 / 3;
+			background: var(--color-steel);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			overflow: hidden;
+		}
+		.product-card .thumb img {
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
+		.product-card .thumb.empty {
+			color: var(--color-ink-soft);
+			font-size: 0.8rem;
+		}
+		.product-card .card-body {
+			padding: 0.9rem 1rem 1.1rem;
+		}
+		.product-card .card-title {
+			font-weight: 600;
+			font-size: 0.95rem;
+			margin-bottom: 0.3rem;
+		}
+		.product-card .card-meta {
+			font-size: 0.82rem;
+			color: var(--color-ink-soft);
+		}
+	</style>
+
+	<div class="container page-header">
+		<h1>Katalog produktów</h1>
+		<p>{products.length} rodzin produktów w {categories.length} kategoriach, pochodzących z pełnej oferty OBRO.</p>
+	</div>
+
+	{categories.map(({ slug: category, label }) => {
+		const items = byCategory.get(category) ?? [];
+		if (items.length === 0) return null;
+		return (
+			<section class="category-section">
+				<div class="container">
 					<h2>{label}</h2>
-					<ul>
-						{items.map((product) => (
-							<li>
-								<strong>{product.data.title}</strong>
-								— {product.data.variants.length} varianti
-							</li>
-						))}
-					</ul>
-				</section>
-			);
-		})}
-	</body>
-</html>
+					<div class="product-grid">
+						{items.map((product) => {
+							const thumb = thumbnail(product);
+							return (
+								<a class="product-card" href={`/catalogo/${product.data.slug}/`}>
+									<div class:list={['thumb', { empty: !thumb }]}>
+										{thumb ? (
+											<img src={thumb} alt={product.data.title} loading="lazy" />
+										) : (
+											<span>Brak zdjęcia</span>
+										)}
+									</div>
+									<div class="card-body">
+										<div class="card-title">{product.data.title}</div>
+										<div class="card-meta">{product.data.variants.length} wariantów</div>
+									</div>
+								</a>
+							);
+						})}
+					</div>
+				</div>
+			</section>
+		);
+	})}
+</BaseLayout>

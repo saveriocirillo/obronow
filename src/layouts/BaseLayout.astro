@@ -1,0 +1,110 @@
+---
+import '../styles/global.css';
+
+interface Props {
+	title: string;
+	description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<html lang="pl">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="generator" content={Astro.generator} />
+		{description && <meta name="description" content={description} />}
+		<title>{title}</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			.site-header {
+				position: sticky;
+				top: 0;
+				z-index: 10;
+				background: color-mix(in srgb, var(--color-paper) 92%, transparent);
+				backdrop-filter: blur(6px);
+				border-bottom: 1px solid var(--color-steel-line);
+			}
+			.site-header .container {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				padding-block: 1.1rem;
+			}
+			.wordmark {
+				font-family: var(--font-display);
+				font-weight: 700;
+				font-size: 1.4rem;
+				letter-spacing: 0.02em;
+				text-decoration: none;
+				color: var(--color-ink);
+			}
+			.wordmark span {
+				color: var(--color-accent);
+			}
+			.site-nav {
+				display: flex;
+				gap: 1.75rem;
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+			.site-nav a {
+				text-decoration: none;
+				font-size: 0.95rem;
+				font-weight: 500;
+				color: var(--color-ink-soft);
+			}
+			.site-nav a:hover {
+				color: var(--color-accent);
+			}
+			.site-footer {
+				border-top: 1px solid var(--color-steel-line);
+				padding-block: 2rem;
+			}
+			.site-footer .container {
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				gap: 1rem;
+				font-size: 0.85rem;
+				color: var(--color-ink-soft);
+			}
+			@media (max-width: 800px) {
+				.site-nav {
+					gap: 1rem;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container">
+				<a class="wordmark" href="/">OBR<span>O</span></a>
+				<ul class="site-nav">
+					<li><a href="/#o-nas">O nas</a></li>
+					<li><a href="/#zaklad">Zakład</a></li>
+					<li><a href="/catalogo">Katalog</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<main>
+			<slot />
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<span>&copy; OBRO</span>
+				<span>Kraków, Polska</span>
+			</div>
+		</footer>
+	</body>
+</html>
