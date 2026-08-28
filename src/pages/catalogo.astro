@@ -1,0 +1,178 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { categories } from '../lib/categories';
+
+const allProducts = await getCollection('products');
+const products = allProducts.filter((product) => !product.data.incomplete);
+
+const byCategory = Map.groupBy(products, (product) => product.data.category);
+
+const thumbnail = (product: (typeof products)[number]) =>
+	product.data.images.find((img) => img.kind === 'photo')?.path ?? product.data.images[0]?.path;
+---
+
+<BaseLayout
+	title="Katalog produktów — OBRO"
+	description="Pełny katalog produktów OBRO: łączniki do drewna, taśmy montażowe, złącza ogrodowe, zawiasy i inne okucia budowlane."
+>
+	<style>
+		.page-header {
+			padding-block: 3.5rem 2.5rem;
+		}
+		.page-header h1 {
+			font-size: clamp(2rem, 4vw, 2.6rem);
+		}
+		.page-header p {
+			color: var(--color-ink-soft);
+			max-width: 34rem;
+		}
+
+		.category-section {
+			border-top: 1px solid var(--color-steel-line);
+		}
+		.category-section:last-of-type {
+			border-bottom: 1px solid var(--color-steel-line);
+		}
+		.category-summary {
+			list-style: none;
+			cursor: pointer;
+		}
+		.category-summary::-webkit-details-marker {
+			display: none;
+		}
+		.category-summary-row {
+			padding-block: 1.5rem;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 1rem;
+		}
+		.category-summary:hover h2 {
+			color: var(--color-accent);
+		}
+		.category-summary h2 {
+			font-size: 1.3rem;
+			margin: 0;
+			transition: color 0.15s ease;
+		}
+		.category-summary .count {
+			font-size: 0.85rem;
+			font-weight: 500;
+			color: var(--color-ink-soft);
+		}
+		.category-summary .head {
+			display: flex;
+			align-items: baseline;
+			gap: 0.6rem;
+		}
+		.chevron {
+			flex-shrink: 0;
+			transition: transform 0.2s ease;
+			color: var(--color-ink-soft);
+		}
+		details[open] > .category-summary .chevron {
+			transform: rotate(180deg);
+		}
+		.category-section .product-grid {
+			padding-bottom: 3rem;
+		}
+
+		.product-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+			gap: 1.25rem;
+		}
+		.product-card {
+			display: flex;
+			flex-direction: column;
+			text-decoration: none;
+			color: var(--color-ink);
+			background: var(--color-paper-raised);
+			border: 1px solid var(--color-steel-line);
+			border-radius: var(--radius);
+			overflow: hidden;
+			transition: border-color 0.15s ease, transform 0.15s ease;
+		}
+		.product-card:hover {
+			border-color: var(--color-accent);
+			transform: translateY(-2px);
+		}
+		.product-card .thumb {
+			aspect-ratio: 1 / 1;
+			background: var(--color-paper-raised);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			overflow: hidden;
+		}
+		.product-card .thumb img {
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
+		.product-card .thumb.empty {
+			color: var(--color-ink-soft);
+			font-size: 0.8rem;
+		}
+		.product-card .card-body {
+			padding: 0.9rem 1rem 1.1rem;
+		}
+		.product-card .card-title {
+			font-weight: 600;
+			font-size: 0.95rem;
+			margin-bottom: 0.3rem;
+		}
+		.product-card .card-meta {
+			font-size: 0.82rem;
+			color: var(--color-ink-soft);
+		}
+	</style>
+
+	<div class="container page-header">
+		<h1>Katalog produktów</h1>
+		<p>{products.length} rodzin produktów w {categories.length} kategoriach, pochodzących z pełnej oferty OBRO.</p>
+	</div>
+
+	{categories.map(({ slug: category, label }, index) => {
+		const items = byCategory.get(category) ?? [];
+		if (items.length === 0) return null;
+		return (
+			<details class="category-section" open={index === 0}>
+				<summary class="category-summary">
+					<div class="container category-summary-row">
+						<div class="head">
+							<h2>{label}</h2>
+							<span class="count">{items.length} rodzin</span>
+						</div>
+						<svg class="chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+							<path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</div>
+				</summary>
+				<div class="container">
+					<div class="product-grid">
+						{items.map((product) => {
+							const thumb = thumbnail(product);
+							return (
+								<a class="product-card" href={`/catalogo/${product.data.slug}/`}>
+									<div class:list={['thumb', { empty: !thumb }]}>
+										{thumb ? (
+											<img src={thumb} alt={product.data.title} loading="lazy" />
+										) : (
+											<span>Brak zdjęcia</span>
+										)}
+									</div>
+									<div class="card-body">
+										<div class="card-title">{product.data.title}</div>
+										<div class="card-meta">{product.data.variants.length} wariantów</div>
+									</div>
+								</a>
+							);
+						})}
+					</div>
+				</div>
+			</details>
+		);
+	})}
+</BaseLayout>

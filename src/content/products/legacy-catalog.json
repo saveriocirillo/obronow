@@ -1,0 +1,6302 @@
+[
+  {
+    "id": "01",
+    "slug": "pm-plytka-montazowa",
+    "title": "PM - płytka montażowa",
+    "titleParts": [
+      "PM - płytka montażowa"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/01-technical-01.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/01-photo-01.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "S",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "variants": [
+      {
+        "sku": "PM 001",
+        "dimensions": {
+          "A": "35",
+          "B": "100",
+          "S": "2.0",
+          "D1": "4",
+          "D2": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "PM 01",
+        "dimensions": {
+          "A": "45",
+          "B": "120",
+          "S": "2.5",
+          "D1": "4.5",
+          "D2": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "PM 02",
+        "dimensions": {
+          "A": "40",
+          "B": "140",
+          "S": "2.0",
+          "D1": "5",
+          "D2": "9"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "PM 1",
+        "dimensions": {
+          "A": "55",
+          "B": "140",
+          "S": "2.5",
+          "D1": "4.5",
+          "D2": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "PM 3",
+        "dimensions": {
+          "A": "80",
+          "B": "160",
+          "S": "2.5",
+          "D1": "5",
+          "D2": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "PM 2",
+        "dimensions": {
+          "A": "65",
+          "B": "180",
+          "S": "2.5",
+          "D1": "5",
+          "D2": "11",
+          "D3": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "PM 4",
+        "dimensions": {
+          "A": "90",
+          "B": "200",
+          "S": "2.5",
+          "D1": "5",
+          "D2": "14",
+          "D3": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "PM 21",
+        "dimensions": {
+          "A": "70",
+          "B": "240",
+          "S": "2.5",
+          "D1": "5.5",
+          "D2": "8"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "PM 5",
+        "dimensions": {
+          "A": "100",
+          "B": "260",
+          "S": "2.5",
+          "D1": "5",
+          "D2": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "PM 6",
+        "dimensions": {
+          "A": "80",
+          "B": "300",
+          "S": "2.5",
+          "D1": "5",
+          "D2": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "PM 7",
+        "dimensions": {
+          "A": "100",
+          "B": "300",
+          "S": "2.5",
+          "D1": "5",
+          "D2": "11"
+        },
+        "packageQty": "10 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "02",
+    "slug": "pr-lacznik-budowlany-plaski-perforowany",
+    "title": "PR - Łącznik budowlany płaski perforowany",
+    "titleParts": [
+      "PR - Łącznik budowlany płaski perforowany"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/02-technical-02.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/02-photo-02.jpg"
+      },
+      {
+        "kind": "installation",
+        "path": "/products/legacy/02-installation-02.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "S",
+      "D"
+    ],
+    "variants": [
+      {
+        "sku": "PR2",
+        "dimensions": {
+          "A": "40",
+          "B": "300",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR3/500",
+        "dimensions": {
+          "A": "40",
+          "B": "500",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 3/1200",
+        "dimensions": {
+          "A": "40",
+          "B": "1200",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 4/200",
+        "dimensions": {
+          "A": "60",
+          "B": "200",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 4",
+        "dimensions": {
+          "A": "60",
+          "B": "300",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 5/1200",
+        "dimensions": {
+          "A": "60",
+          "B": "1200",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 6/240",
+        "dimensions": {
+          "A": "80",
+          "B": "240",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR6",
+        "dimensions": {
+          "A": "80",
+          "B": "300",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 7/2500",
+        "dimensions": {
+          "A": "80",
+          "B": "2500",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 8/200",
+        "dimensions": {
+          "A": "100",
+          "B": "200",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 8",
+        "dimensions": {
+          "A": "100",
+          "B": "300",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 9/400",
+        "dimensions": {
+          "A": "100",
+          "B": "400",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 9/500",
+        "dimensions": {
+          "A": "100",
+          "B": "500",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 9",
+        "dimensions": {
+          "A": "100",
+          "B": "1000",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 9/2500",
+        "dimensions": {
+          "A": "100",
+          "B": "2500",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 10",
+        "dimensions": {
+          "A": "120",
+          "B": "300",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 11/500",
+        "dimensions": {
+          "A": "120",
+          "B": "500",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 11",
+        "dimensions": {
+          "A": "120",
+          "B": "1000",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 11/2500",
+        "dimensions": {
+          "A": "120",
+          "B": "2500",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 1",
+        "dimensions": {
+          "A": "40",
+          "B": "400",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 3",
+        "dimensions": {
+          "A": "40",
+          "B": "1000",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 5",
+        "dimensions": {
+          "A": "60",
+          "B": "1000",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 7",
+        "dimensions": {
+          "A": "80",
+          "B": "1000",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "PR 12",
+        "dimensions": {
+          "A": "300",
+          "B": "2500",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "03",
+    "slug": "lk-i-lacznik-budowlany-z-regulacja",
+    "title": "ŁK I - Łącznik budowlany z regulacją",
+    "titleParts": [
+      "ŁK I - Łącznik budowlany z regulacją"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/03-technical-03.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/03-photo-03.jpg"
+      },
+      {
+        "kind": "installation",
+        "path": "/products/legacy/03-installation-03.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S",
+      "D"
+    ],
+    "variants": [
+      {
+        "sku": "ŁK I 1",
+        "dimensions": {
+          "A": "50",
+          "B": "90",
+          "C": "20",
+          "S": "3.0",
+          "D": "6"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁK I 2",
+        "dimensions": {
+          "A": "60",
+          "B": "140",
+          "C": "30",
+          "S": "3.0",
+          "D": "7"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "04",
+    "slug": "lk-ii-lacznik-budowlany-niesymetryczny",
+    "title": "ŁK II - Łącznik budowlany niesymetryczny",
+    "titleParts": [
+      "ŁK II - Łącznik budowlany niesymetryczny"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/04-technical-04.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/04-photo-04.jpg"
+      },
+      {
+        "kind": "installation",
+        "path": "/products/legacy/04-installation-04.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S",
+      "D"
+    ],
+    "variants": [
+      {
+        "sku": "ŁK II 1",
+        "dimensions": {
+          "A": "30",
+          "B": "50",
+          "C": "14",
+          "S": "2.0",
+          "D": "3"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK II 2",
+        "dimensions": {
+          "A": "60",
+          "B": "140",
+          "C": "30",
+          "S": "3.0",
+          "D": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁK II 3",
+        "dimensions": {
+          "A": "40",
+          "B": "80",
+          "C": "40",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK II 4",
+        "dimensions": {
+          "A": "45",
+          "B": "75",
+          "C": "40",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK II 5",
+        "dimensions": {
+          "A": "50",
+          "B": "110",
+          "C": "40",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK II 6",
+        "dimensions": {
+          "A": "65",
+          "B": "135",
+          "C": "40",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK II 7",
+        "dimensions": {
+          "A": "75",
+          "B": "145",
+          "C": "40",
+          "S": "2.5",
+          "D": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁK II 8",
+        "dimensions": {
+          "A": "100",
+          "B": "150",
+          "C": "40",
+          "S": "2.5",
+          "D": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁK II 9",
+        "dimensions": {
+          "A": "100",
+          "B": "200",
+          "C": "40",
+          "S": "2.5",
+          "D": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁK II 10",
+        "dimensions": {
+          "A": "135",
+          "B": "265",
+          "C": "50",
+          "S": "4.0",
+          "D": "7"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ŁK II 11",
+        "dimensions": {
+          "A": "70",
+          "B": "90",
+          "C": "30",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "05",
+    "slug": "lk-iii-lacznik-budowlany-symetryczny",
+    "title": "ŁK III - Łącznik budowlany symetryczny",
+    "titleParts": [
+      "ŁK III - Łącznik budowlany symetryczny"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/05-technical-05.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/05-photo-05.jpg"
+      },
+      {
+        "kind": "installation",
+        "path": "/products/legacy/05-installation-05.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S",
+      "D"
+    ],
+    "variants": [
+      {
+        "sku": "ŁK III 1",
+        "dimensions": {
+          "A": "25",
+          "B": "25",
+          "C": "10",
+          "S": "2.0",
+          "D": "3"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 2",
+        "dimensions": {
+          "A": "30",
+          "B": "30",
+          "C": "10",
+          "S": "2.0",
+          "D": "3"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 3",
+        "dimensions": {
+          "A": "40",
+          "B": "40",
+          "C": "10",
+          "S": "2.0",
+          "D": "3"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 4",
+        "dimensions": {
+          "A": "15",
+          "B": "15",
+          "C": "12",
+          "S": "2.0",
+          "D": "3"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 5",
+        "dimensions": {
+          "A": "20",
+          "B": "20",
+          "C": "17",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 6",
+        "dimensions": {
+          "A": "30",
+          "B": "30",
+          "C": "17",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 7",
+        "dimensions": {
+          "A": "40",
+          "B": "40",
+          "C": "17",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 8",
+        "dimensions": {
+          "A": "50",
+          "B": "50",
+          "C": "17",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 9",
+        "dimensions": {
+          "A": "60",
+          "B": "60",
+          "C": "20",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 10",
+        "dimensions": {
+          "A": "80",
+          "B": "80",
+          "C": "20",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 11",
+        "dimensions": {
+          "A": "100",
+          "B": "100",
+          "C": "20",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 12",
+        "dimensions": {
+          "A": "20",
+          "B": "20",
+          "C": "25",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 13",
+        "dimensions": {
+          "A": "30",
+          "B": "30",
+          "C": "30",
+          "S": "2.5",
+          "D": "6"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 14",
+        "dimensions": {
+          "A": "50",
+          "B": "50",
+          "C": "30",
+          "S": "3.0",
+          "D": "8"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 15",
+        "dimensions": {
+          "A": "60",
+          "B": "60",
+          "C": "30",
+          "S": "3.0",
+          "D": "6"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 16",
+        "dimensions": {
+          "A": "100",
+          "B": "100",
+          "C": "30",
+          "S": "3.0",
+          "D": "8"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁK III 17",
+        "dimensions": {
+          "A": "40",
+          "B": "40",
+          "C": "40",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 18",
+        "dimensions": {
+          "A": "60",
+          "B": "60",
+          "C": "40",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 19",
+        "dimensions": {
+          "A": "80",
+          "B": "80",
+          "C": "40",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 20",
+        "dimensions": {
+          "A": "100",
+          "B": "100",
+          "C": "40",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 21",
+        "dimensions": {
+          "A": "150",
+          "B": "150",
+          "C": "40",
+          "S": "3.0",
+          "D": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁK III 22",
+        "dimensions": {
+          "A": "200",
+          "B": "200",
+          "C": "40",
+          "S": "3.0",
+          "D": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁK III 23",
+        "dimensions": {
+          "A": "30",
+          "B": "30",
+          "C": "25",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 24",
+        "dimensions": {
+          "A": "40",
+          "B": "40",
+          "C": "25",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁK III 25",
+        "dimensions": {
+          "A": "50",
+          "B": "50",
+          "C": "25",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "06",
+    "slug": "lkr-lacznik-budowlany-z-regulacja",
+    "title": "ŁKR - Łącznik budowlany z regulacją",
+    "titleParts": [
+      "ŁKR - Łącznik budowlany z regulacją"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/06-technical-06.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/06-photo-06.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S1",
+      "D1",
+      "D2"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKR1",
+        "dimensions": {
+          "A": "35",
+          "B": "85",
+          "C": "40",
+          "S1": "2.5",
+          "D1": "5",
+          "D2": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKR2",
+        "dimensions": {
+          "A": "60",
+          "B": "60",
+          "C": "40",
+          "S1": "2.5",
+          "D1": "5",
+          "D2": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKR3",
+        "dimensions": {
+          "A": "35",
+          "B": "60",
+          "C": "60",
+          "S1": "2.5",
+          "D1": "5",
+          "D2": "11"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "07",
+    "slug": "lkr-i-lacznik-budowlany-z-regulacja",
+    "title": "ŁKR I - Łącznik budowlany z regulacją",
+    "titleParts": [
+      "ŁKR I - Łącznik budowlany z regulacją"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/07-technical-07.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/07-photo-07.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S",
+      "D"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKR I 1",
+        "dimensions": {
+          "A": "65",
+          "B": "95",
+          "C": "60",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKR I 2",
+        "dimensions": {
+          "A": "65",
+          "B": "95",
+          "C": "40",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "08",
+    "slug": "lkr-ii-lacznik-budowlany-z-regulacja",
+    "title": "ŁKR II - Łącznik budowlany z regulacja",
+    "titleParts": [
+      "ŁKR II - Łącznik budowlany z regulacja"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/08-technical-08.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/08-photo-08.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S",
+      "D"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKR II",
+        "dimensions": {
+          "A": "40",
+          "B": "75",
+          "C": "66",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "09",
+    "slug": "lksw-i-lacznik-budowlany-wzmocniony",
+    "title": "ŁKSW I - Łącznik budowlany wzmocniony",
+    "titleParts": [
+      "ŁKSW I - Łącznik budowlany wzmocniony"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/09-technical-09.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/09-photo-09.jpg"
+      },
+      {
+        "kind": "installation",
+        "path": "/products/legacy/09-installation-09.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "C",
+      "S",
+      "D",
+      "D1",
+      "D2"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKSW I 001",
+        "dimensions": {
+          "A": "40",
+          "C": "40",
+          "S": "2.0",
+          "D": "5.0"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW I 01",
+        "dimensions": {
+          "A": "50",
+          "C": "35",
+          "S": "2.0",
+          "D": "4",
+          "D1": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW I 02",
+        "dimensions": {
+          "A": "60",
+          "C": "45",
+          "S": "2.5",
+          "D": "4.5",
+          "D1": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW I 1",
+        "dimensions": {
+          "A": "70",
+          "C": "40",
+          "S": "2.0",
+          "D": "5",
+          "D1": "9"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW I 2",
+        "dimensions": {
+          "A": "70",
+          "C": "55",
+          "S": "2.5",
+          "D": "4.5",
+          "D1": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW I 3",
+        "dimensions": {
+          "A": "80",
+          "C": "80",
+          "S": "2.5",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW I 4",
+        "dimensions": {
+          "A": "90",
+          "C": "65",
+          "S": "2.5",
+          "D": "5",
+          "D1": "11",
+          "D2": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW I 5",
+        "dimensions": {
+          "A": "100",
+          "C": "90",
+          "S": "2.5",
+          "D": "5",
+          "D1": "14",
+          "D2": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW I 6",
+        "dimensions": {
+          "A": "130",
+          "C": "100",
+          "S": "2.5",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW I 7",
+        "dimensions": {
+          "A": "150",
+          "C": "50",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW I 8",
+        "dimensions": {
+          "A": "150",
+          "C": "80",
+          "S": "2.5",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW I 9",
+        "dimensions": {
+          "A": "150",
+          "C": "100",
+          "S": "2.5",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ŁKSW I 10",
+        "dimensions": {
+          "A": "60",
+          "C": "60",
+          "S": "2.5",
+          "D": "4.5",
+          "D1": "8"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW I 11",
+        "dimensions": {
+          "A": "150",
+          "C": "65",
+          "S": "2.5",
+          "D": "5.0",
+          "D1": "11",
+          "D2": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW I 51",
+        "dimensions": {
+          "A": "120",
+          "C": "70",
+          "S": "2.5",
+          "D": "5.5",
+          "D1": "8"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW I 52",
+        "dimensions": {
+          "A": "125",
+          "C": "55",
+          "S": "2.5",
+          "D": "4.5",
+          "D1": "11"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "10",
+    "slug": "lksw-ii-lacznik-budowlany-zwykly",
+    "title": "ŁKSW II - Łącznik budowlany zwykły",
+    "titleParts": [
+      "ŁKSW II - Łącznik budowlany zwykły"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/10-technical-10.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/10-photo-10.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "C",
+      "S",
+      "D",
+      "D1",
+      "D2"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKSW II 001",
+        "dimensions": {
+          "A": "50",
+          "C": "35",
+          "S": "2.0",
+          "D": "4",
+          "D1": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW II 01",
+        "dimensions": {
+          "A": "60",
+          "C": "45",
+          "S": "2.5",
+          "D": "4.5",
+          "D1": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW II 1",
+        "dimensions": {
+          "A": "70",
+          "C": "40",
+          "S": "2.0",
+          "D": "5",
+          "D1": "9"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW II 2",
+        "dimensions": {
+          "A": "70",
+          "C": "55",
+          "S": "2.5",
+          "D": "4.5",
+          "D1": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW II 3",
+        "dimensions": {
+          "A": "80",
+          "C": "80",
+          "S": "2.5",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW II 4",
+        "dimensions": {
+          "A": "90",
+          "C": "65",
+          "S": "2.5",
+          "D": "5",
+          "D1": "11",
+          "D2": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW II 5",
+        "dimensions": {
+          "A": "100",
+          "C": "90",
+          "S": "2.5",
+          "D": "5",
+          "D1": "14",
+          "D2": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW II 6",
+        "dimensions": {
+          "A": "130",
+          "C": "100",
+          "S": "2.5",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW II 51",
+        "dimensions": {
+          "A": "120",
+          "C": "70",
+          "S": "2.5",
+          "D": "5.5",
+          "D1": "8"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW II 7",
+        "dimensions": {
+          "A": "150",
+          "C": "80",
+          "S": "2.5",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSW II 8",
+        "dimensions": {
+          "A": "150",
+          "C": "100",
+          "S": "2.5",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "10 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "11",
+    "slug": "lksr-lacznik-budowlany-rozwartokatny",
+    "title": "ŁKSR - Łącznik budowlany rozwartokątny",
+    "titleParts": [
+      "ŁKSR - Łącznik budowlany rozwartokątny"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/11-technical-11.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/11-photo-11.jpg"
+      },
+      {
+        "kind": "installation",
+        "path": "/products/legacy/11-installation-11.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "C",
+      "S",
+      "D",
+      "D1",
+      "D2"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKSR 0001",
+        "dimensions": {
+          "A": "50",
+          "C": "35",
+          "S": "2.0",
+          "D": "4",
+          "D1": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSR 001",
+        "dimensions": {
+          "A": "60",
+          "C": "45",
+          "S": "2.5",
+          "D": "4.5",
+          "D1": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSR 01",
+        "dimensions": {
+          "A": "70",
+          "C": "40",
+          "S": "2.0",
+          "D": "5",
+          "D1": "9"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSR 1",
+        "dimensions": {
+          "A": "70",
+          "C": "55",
+          "S": "2.5",
+          "D": "4.5",
+          "D1": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSR 2",
+        "dimensions": {
+          "A": "90",
+          "C": "65",
+          "S": "2.5",
+          "D": "5",
+          "D1": "11",
+          "D2": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSR 3",
+        "dimensions": {
+          "A": "80",
+          "C": "80",
+          "S": "2.5",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSR 4",
+        "dimensions": {
+          "A": "100",
+          "C": "90",
+          "S": "2.5",
+          "D": "5",
+          "D1": "14",
+          "D2": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSR 5",
+        "dimensions": {
+          "A": "130",
+          "C": "100",
+          "S": "2.5",
+          "D": "5",
+          "D1": "11",
+          "D2": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSR 41",
+        "dimensions": {
+          "A": "120",
+          "C": "70",
+          "S": "2.5",
+          "D": "5.5",
+          "D1": "8",
+          "D2": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSR 6",
+        "dimensions": {
+          "A": "150",
+          "C": "80",
+          "S": "2.5",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKSR 7",
+        "dimensions": {
+          "A": "150",
+          "C": "100",
+          "S": "2.5",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "10 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "12",
+    "slug": "lknw-i-lacznik-budowlany-wzmocniony",
+    "title": "ŁKNW I - Łącznik budowlany wzmocniony",
+    "titleParts": [
+      "ŁKNW I - Łącznik budowlany wzmocniony"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/12-technical-12.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/12-photo-12.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S",
+      "D",
+      "D1",
+      "D1"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKNW I 1",
+        "dimensions": {
+          "A": "60",
+          "B": "80",
+          "C": "40",
+          "S": "2.0",
+          "D": "5",
+          "D1": "9"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKNW I 2",
+        "dimensions": {
+          "A": "50",
+          "B": "90",
+          "C": "55",
+          "S": "2.5",
+          "D": "4.5",
+          "D1": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKNW I 3",
+        "dimensions": {
+          "A": "100",
+          "B": "200",
+          "C": "67",
+          "S": "2.5",
+          "D": "5.5",
+          "D1": "13"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKNW I 4",
+        "dimensions": {
+          "A": "35",
+          "B": "60",
+          "C": "35",
+          "S": "2.5",
+          "D": "4.0",
+          "D1": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKNW I 5",
+        "dimensions": {
+          "A": "40",
+          "B": "80",
+          "C": "45",
+          "S": "2.5",
+          "D": "4.5",
+          "D1": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKNW I 6",
+        "dimensions": {
+          "A": "110",
+          "B": "160",
+          "C": "90",
+          "S": "2.5",
+          "D": "11",
+          "D1": "5"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "13",
+    "slug": "lknw-ii-lacznik-budowlany-zwykly",
+    "title": "ŁKNW II - Łącznik budowlany zwykły",
+    "titleParts": [
+      "ŁKNW II - Łącznik budowlany zwykły"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/13-technical-13.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/13-photo-13.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S",
+      "D",
+      "D1"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKNW II 1",
+        "dimensions": {
+          "A": "60",
+          "B": "80",
+          "C": "40",
+          "S": "2.0",
+          "D": "5.0",
+          "D1": "9"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKNW II 2",
+        "dimensions": {
+          "A": "50",
+          "B": "90",
+          "C": "55",
+          "S": "2.5",
+          "D": "4.5",
+          "D1": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKNW II 3",
+        "dimensions": {
+          "A": "100",
+          "B": "200",
+          "C": "67",
+          "S": "2.5",
+          "D": "5.5",
+          "D1": "13"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "14",
+    "slug": "lkn-lacznik-budowlany-wzmocniony",
+    "title": "ŁKN - Łącznik budowlany wzmocniony",
+    "titleParts": [
+      "ŁKN - Łącznik budowlany wzmocniony"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/14-technical-14.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/14-photo-14.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S",
+      "D"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKN 1",
+        "dimensions": {
+          "A": "75",
+          "B": "100",
+          "C": "50",
+          "S": "2",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKN 2",
+        "dimensions": {
+          "A": "100",
+          "B": "125",
+          "C": "50",
+          "S": "2",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKN 3",
+        "dimensions": {
+          "A": "125",
+          "B": "150",
+          "C": "50",
+          "S": "2",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKN 4",
+        "dimensions": {
+          "A": "150",
+          "B": "175",
+          "C": "50",
+          "S": "2",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKN 5",
+        "dimensions": {
+          "A": "150",
+          "B": "200",
+          "C": "50",
+          "S": "2",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKN 6",
+        "dimensions": {
+          "A": "200",
+          "B": "225",
+          "C": "50",
+          "S": "2",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKN 7",
+        "dimensions": {
+          "A": "200",
+          "B": "250",
+          "C": "50",
+          "S": "2",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "15",
+    "slug": "lkwn-lacznik-budowlany-wzmocniony",
+    "title": "ŁKWN - Łącznik budowlany wzmocniony",
+    "titleParts": [
+      "ŁKWN - Łącznik budowlany wzmocniony"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/15-technical-15.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/15-photo-15.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S",
+      "D",
+      "D1",
+      "D2"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKWN I",
+        "dimensions": {
+          "A": "60",
+          "B": "90",
+          "C": "60",
+          "S": "2.5",
+          "D2": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKWN II",
+        "dimensions": {
+          "A": "60",
+          "B": "90",
+          "C": "60",
+          "S": "2.5",
+          "D": "8",
+          "D2": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKWN III 1",
+        "dimensions": {
+          "A": "60",
+          "B": "90",
+          "C": "60",
+          "S": "2.5",
+          "D1": "12",
+          "D2": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKWN III 2",
+        "dimensions": {
+          "A": "50",
+          "B": "85",
+          "C": "80",
+          "S": "3.0",
+          "D1": "11",
+          "D2": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKWN III 3",
+        "dimensions": {
+          "A": "55",
+          "B": "95",
+          "C": "120",
+          "S": "3.0",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKWN IV",
+        "dimensions": {
+          "A": "60",
+          "B": "90",
+          "C": "60",
+          "S": "2.5",
+          "D2": "5"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "16",
+    "slug": "lkb-lacznik-budowlany-katowy",
+    "title": "ŁKB - Łącznik budowlany kątowy",
+    "titleParts": [
+      "ŁKB - Łącznik budowlany kątowy"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/16-technical-16.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/16-photo-16.jpg"
+      },
+      {
+        "kind": "installation",
+        "path": "/products/legacy/16-installation-16.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S",
+      "D",
+      ""
+    ],
+    "variants": [
+      {
+        "sku": "ŁKB 1L",
+        "dimensions": {
+          "A": "170",
+          "B": "40",
+          "C": "40",
+          "S": "2.0",
+          "D": "5",
+          "": "Lewy"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKB 1P",
+        "dimensions": {
+          "A": "170",
+          "B": "40",
+          "C": "40",
+          "S": "2.0",
+          "D": "5",
+          "": "Prawy"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKB 2L",
+        "dimensions": {
+          "A": "220",
+          "B": "40",
+          "C": "40",
+          "S": "2.0",
+          "D": "5",
+          "": "Lewy"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKB 2P",
+        "dimensions": {
+          "A": "220",
+          "B": "40",
+          "C": "40",
+          "S": "2.0",
+          "D": "5",
+          "": "Prawy"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKB 3L",
+        "dimensions": {
+          "A": "260",
+          "B": "40",
+          "C": "40",
+          "S": "2.0",
+          "D": "5",
+          "": "Lewy"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKB 3P",
+        "dimensions": {
+          "A": "260",
+          "B": "40",
+          "C": "40",
+          "S": "2.0",
+          "D": "5",
+          "": "Prawy"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKB 4L",
+        "dimensions": {
+          "A": "300",
+          "B": "40",
+          "C": "40",
+          "S": "2.0",
+          "D": "5",
+          "": "Lewy"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKB 4P",
+        "dimensions": {
+          "A": "300",
+          "B": "40",
+          "C": "40",
+          "S": "2.0",
+          "D": "5",
+          "": "Prawy"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "17",
+    "slug": "lkps-i-lacznik-budowlany-perforowany",
+    "title": "ŁKPS I - Łącznik budowlany perforowany",
+    "titleParts": [
+      "ŁKPS I - Łącznik budowlany perforowany"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/17-technical-17.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/17-photo-17.jpg"
+      },
+      {
+        "kind": "installation",
+        "path": "/products/legacy/17-installation-17.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "C",
+      "S",
+      "D"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKPS I 1",
+        "dimensions": {
+          "A": "40",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 2",
+        "dimensions": {
+          "A": "60",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 3",
+        "dimensions": {
+          "A": "80",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 4",
+        "dimensions": {
+          "A": "100",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 5",
+        "dimensions": {
+          "A": "120",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 6",
+        "dimensions": {
+          "A": "40",
+          "C": "60",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 7",
+        "dimensions": {
+          "A": "60",
+          "C": "60",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 8",
+        "dimensions": {
+          "A": "80",
+          "C": "60",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 9",
+        "dimensions": {
+          "A": "100",
+          "C": "60",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 10",
+        "dimensions": {
+          "A": "120",
+          "C": "60",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 11",
+        "dimensions": {
+          "A": "40",
+          "C": "80",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 12",
+        "dimensions": {
+          "A": "60",
+          "C": "80",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 13",
+        "dimensions": {
+          "A": "80",
+          "C": "80",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 14",
+        "dimensions": {
+          "A": "100",
+          "C": "80",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 15",
+        "dimensions": {
+          "A": "120",
+          "C": "80",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 16",
+        "dimensions": {
+          "A": "40",
+          "C": "100",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 17",
+        "dimensions": {
+          "A": "60",
+          "C": "100",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 18",
+        "dimensions": {
+          "A": "80",
+          "C": "100",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 19",
+        "dimensions": {
+          "A": "100",
+          "C": "100",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 20",
+        "dimensions": {
+          "A": "120",
+          "C": "100",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 21",
+        "dimensions": {
+          "A": "40",
+          "C": "120",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 22",
+        "dimensions": {
+          "A": "60",
+          "C": "120",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 22/200",
+        "dimensions": {
+          "A": "60",
+          "C": "200",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ŁKPS I 22/300",
+        "dimensions": {
+          "A": "60",
+          "C": "300",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ŁKPS I 22/400",
+        "dimensions": {
+          "A": "60",
+          "C": "400",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ŁKPS I 23",
+        "dimensions": {
+          "A": "80",
+          "C": "120",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 24",
+        "dimensions": {
+          "A": "100",
+          "C": "120",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS I 25",
+        "dimensions": {
+          "A": "120",
+          "C": "120",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "18",
+    "slug": "lkps-ii-lacznik-budowlany-perforowany-wzmocniony",
+    "title": "ŁKPS II - Łącznik budowlany perforowany wzmocniony",
+    "titleParts": [
+      "ŁKPS II - Łącznik budowlany perforowany wzmocniony"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/18-technical-18.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/18-photo-18.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "C",
+      "S",
+      "D"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKPS II 1",
+        "dimensions": {
+          "A": "40",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 2",
+        "dimensions": {
+          "A": "60",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 3",
+        "dimensions": {
+          "A": "80",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 4",
+        "dimensions": {
+          "A": "100",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 5",
+        "dimensions": {
+          "A": "120",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 6",
+        "dimensions": {
+          "A": "40",
+          "C": "60",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 7",
+        "dimensions": {
+          "A": "60",
+          "C": "60",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 8",
+        "dimensions": {
+          "A": "80",
+          "C": "60",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 9",
+        "dimensions": {
+          "A": "100",
+          "C": "60",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 10",
+        "dimensions": {
+          "A": "120",
+          "C": "60",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 11",
+        "dimensions": {
+          "A": "40",
+          "C": "80",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 12",
+        "dimensions": {
+          "A": "60",
+          "C": "80",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 13",
+        "dimensions": {
+          "A": "80",
+          "C": "80",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 14",
+        "dimensions": {
+          "A": "100",
+          "C": "80",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 15",
+        "dimensions": {
+          "A": "120",
+          "C": "80",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 16",
+        "dimensions": {
+          "A": "40",
+          "C": "100",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 17",
+        "dimensions": {
+          "A": "60",
+          "C": "100",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 18",
+        "dimensions": {
+          "A": "80",
+          "C": "100",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 19",
+        "dimensions": {
+          "A": "100",
+          "C": "100",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 20",
+        "dimensions": {
+          "A": "120",
+          "C": "100",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 21",
+        "dimensions": {
+          "A": "40",
+          "C": "120",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 22",
+        "dimensions": {
+          "A": "60",
+          "C": "120",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 23",
+        "dimensions": {
+          "A": "80",
+          "C": "120",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 24",
+        "dimensions": {
+          "A": "100",
+          "C": "120",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKPS II 25",
+        "dimensions": {
+          "A": "120",
+          "C": "120",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "19",
+    "slug": "lkd-lacznik-budowlany-perforowany",
+    "title": "ŁKD - Łącznik budowlany perforowany",
+    "titleParts": [
+      "ŁKD - Łącznik budowlany perforowany"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/19-technical-19.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/19-photo-19.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S",
+      "D"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKD 1",
+        "dimensions": {
+          "A": "40",
+          "B": "180",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKD 2",
+        "dimensions": {
+          "A": "40",
+          "B": "260",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKD 3",
+        "dimensions": {
+          "A": "40",
+          "B": "500",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKD 4",
+        "dimensions": {
+          "A": "60",
+          "B": "180",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKD 5",
+        "dimensions": {
+          "A": "60",
+          "B": "260",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKD 6",
+        "dimensions": {
+          "A": "60",
+          "B": "500",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "20",
+    "slug": "lkpn-lacznik-budowlany-z-otworami",
+    "title": "ŁKPN - Łącznik budowlany z otworami",
+    "titleParts": [
+      "ŁKPN - Łącznik budowlany z otworami"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/20-technical-20.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/20-photo-20.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S",
+      "D",
+      "D1"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKPN 1",
+        "dimensions": {
+          "A": "50",
+          "B": "50",
+          "C": "40",
+          "S": "2.5",
+          "D": "11",
+          "D1": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁKPN 2",
+        "dimensions": {
+          "A": "60",
+          "B": "60",
+          "C": "40",
+          "S": "2.5",
+          "D": "11",
+          "D1": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁKPN 3",
+        "dimensions": {
+          "A": "80",
+          "B": "80",
+          "C": "40",
+          "S": "2.5",
+          "D": "11",
+          "D1": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁKPN 4",
+        "dimensions": {
+          "A": "100",
+          "B": "100",
+          "C": "40",
+          "S": "2.5",
+          "D": "11",
+          "D1": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁKPN 5",
+        "dimensions": {
+          "A": "40",
+          "B": "120",
+          "C": "40",
+          "S": "2.5",
+          "D": "11",
+          "D1": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁKPN 6",
+        "dimensions": {
+          "A": "50",
+          "B": "70",
+          "C": "40",
+          "S": "2.5",
+          "D": "11",
+          "D1": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ŁKPN 7",
+        "dimensions": {
+          "A": "50",
+          "B": "150",
+          "C": "40",
+          "S": "2.5",
+          "D": "11",
+          "D1": "5"
+        },
+        "packageQty": "100 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "21",
+    "slug": "cm-lacznik-budowlany-c",
+    "title": "CM - Łącznik budowlany \"C\"",
+    "titleParts": [
+      "CM - Łącznik budowlany \"C\""
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/21-technical-21.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/21-photo-21.jpg"
+      },
+      {
+        "kind": "installation",
+        "path": "/products/legacy/21-installation-21.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "D1",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "CM 1",
+        "dimensions": {
+          "A": "50",
+          "B": "100",
+          "C": "40",
+          "D": "5",
+          "D1": "11",
+          "S": "2.5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "CM 2",
+        "dimensions": {
+          "A": "60",
+          "B": "80",
+          "C": "40",
+          "D": "5",
+          "D1": "11",
+          "S": "2.5"
+        },
+        "packageQty": "10szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "22",
+    "slug": "lw-uchwyt-belki",
+    "title": "ŁW - Uchwyt belki",
+    "titleParts": [
+      "ŁW - Uchwyt belki"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/22-technical-22.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/22-photo-22.jpg"
+      },
+      {
+        "kind": "installation",
+        "path": "/products/legacy/22-installation-22.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "F",
+      "S",
+      "D",
+      "D1"
+    ],
+    "variants": [
+      {
+        "sku": "ŁW 3",
+        "dimensions": {
+          "A": "38",
+          "B": "110",
+          "C": "80",
+          "E": "45",
+          "F": "37",
+          "S": "2.0",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "wg/zam."
+      },
+      {
+        "sku": "ŁW 8",
+        "dimensions": {
+          "A": "40",
+          "B": "125",
+          "C": "80",
+          "E": "45",
+          "F": "37",
+          "S": "2.0",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "wg/zam."
+      },
+      {
+        "sku": "ŁW 11",
+        "dimensions": {
+          "A": "50",
+          "B": "100",
+          "C": "80",
+          "E": "45",
+          "F": "37",
+          "S": "2.0",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "wg/zam."
+      },
+      {
+        "sku": "ŁW 18",
+        "dimensions": {
+          "A": "60",
+          "B": "145",
+          "C": "80",
+          "E": "45",
+          "F": "37",
+          "S": "2.0",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "wg/zam."
+      },
+      {
+        "sku": "ŁW 21",
+        "dimensions": {
+          "A": "70",
+          "B": "125",
+          "C": "80",
+          "E": "45",
+          "F": "37",
+          "S": "2.0",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "wg/zam."
+      },
+      {
+        "sku": "ŁW 22",
+        "dimensions": {
+          "A": "70",
+          "B": "150",
+          "C": "80",
+          "E": "45",
+          "F": "37",
+          "S": "2.0",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "wg/zam."
+      },
+      {
+        "sku": "ŁW 24",
+        "dimensions": {
+          "A": "80",
+          "B": "125",
+          "C": "80",
+          "E": "45",
+          "F": "37",
+          "S": "2.0",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "wg/zam."
+      },
+      {
+        "sku": "ŁW 26",
+        "dimensions": {
+          "A": "80",
+          "B": "175",
+          "C": "80",
+          "E": "45",
+          "F": "37",
+          "S": "2.0",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "wg/zam."
+      },
+      {
+        "sku": "ŁW 29",
+        "dimensions": {
+          "A": "90",
+          "B": "140",
+          "C": "80",
+          "E": "45",
+          "F": "37",
+          "S": "2.0",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "wg/zam."
+      },
+      {
+        "sku": "ŁW 32",
+        "dimensions": {
+          "A": "100",
+          "B": "170",
+          "C": "80",
+          "E": "45",
+          "F": "37",
+          "S": "2.0",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "wg/zam."
+      },
+      {
+        "sku": "ŁW 35",
+        "dimensions": {
+          "A": "120",
+          "B": "165",
+          "C": "80",
+          "E": "45",
+          "F": "37",
+          "S": "2.0",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "wg/zam."
+      },
+      {
+        "sku": "ŁW 38",
+        "dimensions": {
+          "A": "140",
+          "B": "185",
+          "C": "80",
+          "E": "45",
+          "F": "37",
+          "S": "2.0",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "wg/zam."
+      },
+      {
+        "sku": "ŁW 40",
+        "dimensions": {
+          "A": "160",
+          "B": "235",
+          "C": "80",
+          "E": "45",
+          "F": "37",
+          "S": "2.0",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "wg/zam."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "25",
+    "slug": "pmws-lacznik-budowlany-plaski",
+    "title": "PMWS - Łącznik budowlany płaski",
+    "titleParts": [
+      "PMWS - Łącznik budowlany płaski"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/25-technical-25.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/25-photo-25.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "C",
+      "S",
+      "D"
+    ],
+    "variants": [
+      {
+        "sku": "PMWS 1",
+        "dimensions": {
+          "A": "40",
+          "C": "17",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMWS 2",
+        "dimensions": {
+          "A": "60",
+          "C": "17",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMWS 3",
+        "dimensions": {
+          "A": "80",
+          "C": "17",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMWS 4",
+        "dimensions": {
+          "A": "100",
+          "C": "17",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMWS 5",
+        "dimensions": {
+          "A": "120",
+          "C": "20",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMWS 6",
+        "dimensions": {
+          "A": "160",
+          "C": "20",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMWS 7",
+        "dimensions": {
+          "A": "200",
+          "C": "20",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "26",
+    "slug": "pms-lacznik-budowlany-plaski",
+    "title": "PMS - Łącznik budowlany płaski",
+    "titleParts": [
+      "PMS - Łącznik budowlany płaski"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/26-technical-26.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/26-photo-26.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "C",
+      "S",
+      "D"
+    ],
+    "variants": [
+      {
+        "sku": "PMS 1",
+        "dimensions": {
+          "A": "40",
+          "C": "25",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMS 2",
+        "dimensions": {
+          "A": "60",
+          "C": "30",
+          "S": "2.5",
+          "D": "6"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMS 3",
+        "dimensions": {
+          "A": "120",
+          "C": "30",
+          "S": "3.0",
+          "D": "6"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMS 4",
+        "dimensions": {
+          "A": "200",
+          "C": "30",
+          "S": "3.0",
+          "D": "8"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "PMS 5",
+        "dimensions": {
+          "A": "80",
+          "C": "40",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMS 6",
+        "dimensions": {
+          "A": "120",
+          "C": "40",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMS 7",
+        "dimensions": {
+          "A": "160",
+          "C": "40",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMS 8",
+        "dimensions": {
+          "A": "200",
+          "C": "40",
+          "S": "2.5",
+          "D": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMS 9",
+        "dimensions": {
+          "A": "300",
+          "C": "40",
+          "S": "3.0",
+          "D": "7"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "PMS 10",
+        "dimensions": {
+          "A": "250",
+          "C": "50",
+          "S": "4.0",
+          "D": "7"
+        },
+        "packageQty": "10 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "27",
+    "slug": "pmw-lacznik-plaski-z-otworami",
+    "title": "PMW - Łącznik płaski z otworami",
+    "titleParts": [
+      "PMW - Łącznik płaski z otworami"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/27-technical-27.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/27-photo-27.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "C",
+      "S",
+      "D",
+      "D1"
+    ],
+    "variants": [
+      {
+        "sku": "PMW 1",
+        "dimensions": {
+          "A": "100",
+          "C": "40",
+          "S": "2.5",
+          "D": "11",
+          "D1": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMW 2",
+        "dimensions": {
+          "A": "120",
+          "C": "40",
+          "S": "2.5",
+          "D": "11",
+          "D1": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMW 3",
+        "dimensions": {
+          "A": "160",
+          "C": "40",
+          "S": "2.5",
+          "D": "11",
+          "D1": "5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "PMW 4",
+        "dimensions": {
+          "A": "200",
+          "C": "40",
+          "S": "2.5",
+          "D": "11",
+          "D1": "5"
+        },
+        "packageQty": "100 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "28",
+    "slug": "kn-katownik",
+    "title": "KN - Kątownik",
+    "titleParts": [
+      "KN - Kątownik"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/28-technical-28.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/28-photo-28.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "C",
+      "S",
+      "D"
+    ],
+    "variants": [
+      {
+        "sku": "KN 1",
+        "dimensions": {
+          "A": "25",
+          "C": "10",
+          "S": "2.0",
+          "D": "3"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "KN 2",
+        "dimensions": {
+          "A": "40",
+          "C": "10",
+          "S": "2.0",
+          "D": "3"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "KN 3",
+        "dimensions": {
+          "A": "50",
+          "C": "10",
+          "S": "2.0",
+          "D": "3"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "KN 4",
+        "dimensions": {
+          "A": "70",
+          "C": "15",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "KN 5",
+        "dimensions": {
+          "A": "100",
+          "C": "15",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "KN 6",
+        "dimensions": {
+          "A": "80",
+          "C": "30",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "KN 10",
+        "dimensions": {
+          "A": "300",
+          "C": "40",
+          "S": "3.0",
+          "D": "6"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "KN 71",
+        "dimensions": {
+          "A": "150",
+          "C": "25",
+          "S": "2.5",
+          "D": "4"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "KN 81",
+        "dimensions": {
+          "A": "200",
+          "C": "30",
+          "S": "2.5",
+          "D": "5.5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "KN 82",
+        "dimensions": {
+          "A": "250",
+          "C": "30",
+          "S": "2.5",
+          "D": "5.5"
+        },
+        "packageQty": "10 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "34",
+    "slug": "lt-lacznik-plaski-t",
+    "title": "ŁT - Łącznik płaski \"T\"",
+    "titleParts": [
+      "ŁT - Łącznik płaski \"T\""
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/34-technical-34.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/34-photo-34.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "D1",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ŁT 1",
+        "dimensions": {
+          "A": "70",
+          "B": "50",
+          "C": "15",
+          "D1": "4",
+          "S": "2.0"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁT 2",
+        "dimensions": {
+          "A": "80",
+          "B": "65",
+          "C": "15",
+          "D1": "4",
+          "S": "2.0"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁT 3",
+        "dimensions": {
+          "A": "100",
+          "B": "80",
+          "C": "20",
+          "D1": "4",
+          "S": "2.0"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁT 4",
+        "dimensions": {
+          "A": "100",
+          "B": "60",
+          "C": "40",
+          "D": "14",
+          "D1": "5",
+          "S": "2.0"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁT 5",
+        "dimensions": {
+          "A": "150",
+          "B": "110",
+          "C": "40",
+          "D": "14",
+          "D1": "5",
+          "S": "2.0"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁT 6",
+        "dimensions": {
+          "A": "200",
+          "B": "160",
+          "C": "40",
+          "D": "14",
+          "D1": "5",
+          "S": "2.0"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "35",
+    "slug": "lkt-lacznik-zgiety-t",
+    "title": "ŁKT - Łącznik zgięty \"T\"",
+    "titleParts": [
+      "ŁKT - Łącznik zgięty \"T\""
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/35-technical-35.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/35-photo-35.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "C1",
+      "D",
+      "D1",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKT 1",
+        "dimensions": {
+          "A": "50",
+          "B": "60",
+          "C": "40",
+          "C1": "20",
+          "D": "14",
+          "D1": "5",
+          "S": "2.0"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKT 2",
+        "dimensions": {
+          "A": "75",
+          "B": "110",
+          "C": "40",
+          "C1": "20",
+          "D": "14",
+          "D1": "5",
+          "S": "2.0"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁKT 3",
+        "dimensions": {
+          "A": "100",
+          "B": "160",
+          "C": "40",
+          "C1": "20",
+          "D": "14",
+          "D1": "5",
+          "S": "2.0"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "36",
+    "slug": "lbn-lacznik-narozny",
+    "title": "ŁBN - Łącznik narożny",
+    "titleParts": [
+      "ŁBN - Łącznik narożny"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/36-technical-36.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/36-photo-36.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ŁBN",
+        "dimensions": {
+          "A": "70",
+          "B": "40",
+          "S": "1.5"
+        },
+        "packageQty": "50 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "37",
+    "slug": "lbw-lacznik-wspornikowy",
+    "title": "ŁBW - Łącznik wspornikowy",
+    "titleParts": [
+      "ŁBW - Łącznik wspornikowy"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/37-technical-37.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/37-photo-37.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ŁBW",
+        "dimensions": {
+          "A": "25",
+          "B": "140",
+          "S": "1.5"
+        },
+        "packageQty": "50 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "38",
+    "slug": "ldk-lacznik-pretowy",
+    "title": "ŁDK - Łącznik prętowy",
+    "titleParts": [
+      "ŁDK - Łącznik prętowy"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/38-technical-38.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/38-photo-38.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S",
+      "D",
+      "H"
+    ],
+    "variants": [
+      {
+        "sku": "ŁDK 1",
+        "dimensions": {
+          "A": "35",
+          "B": "45",
+          "C": "50",
+          "S": "2.0",
+          "D": "4.5",
+          "H": "220"
+        },
+        "packageQty": "wg zam."
+      },
+      {
+        "sku": "ŁDK 2",
+        "dimensions": {
+          "A": "40",
+          "B": "45",
+          "C": "40",
+          "S": "2.0",
+          "D": "4.5",
+          "H": "220"
+        },
+        "packageQty": "wg zam."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "42",
+    "slug": "lbz-50-lacznik-budowlany",
+    "title": "ŁBZ 50 - Łącznik budowlany",
+    "titleParts": [
+      "ŁBZ 50 - Łącznik budowlany"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/42-technical-42.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/42-photo-42.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "H",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ŁBZ 50",
+        "dimensions": {
+          "A": "110",
+          "B": "30",
+          "C": "50",
+          "H": "55",
+          "S": "2.5"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "161",
+    "slug": "lwpo-uchwyt-belki-pojedynczy",
+    "title": "ŁWPO - Uchwyt belki pojedynczy",
+    "titleParts": [
+      "ŁWPO - Uchwyt belki pojedynczy"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "photo",
+        "path": "/products/legacy/161-photo-161.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "S",
+      "D",
+      "D1"
+    ],
+    "variants": [
+      {
+        "sku": "ŁWPO",
+        "dimensions": {
+          "A": "80",
+          "B": "160",
+          "C": "40",
+          "E": "80",
+          "S": "2.0",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "wg zam"
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "162",
+    "slug": "lwpd-uchwyt-belki-podwojny",
+    "title": "ŁWPD - Uchwyt belki podwójny",
+    "titleParts": [
+      "ŁWPD - Uchwyt belki podwójny"
+    ],
+    "category": "laczniki-do-drewna",
+    "images": [
+      {
+        "kind": "photo",
+        "path": "/products/legacy/162-photo-162.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "S",
+      "D",
+      "D1"
+    ],
+    "variants": [
+      {
+        "sku": "ŁWPD",
+        "dimensions": {
+          "A": "80",
+          "B": "160",
+          "C": "80",
+          "E": "80",
+          "S": "2",
+          "D": "5",
+          "D1": "11"
+        },
+        "packageQty": "wg zam"
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "29",
+    "slug": "ltl-tasma",
+    "title": "ŁTL - Taśma",
+    "titleParts": [
+      "ŁTL - Taśma"
+    ],
+    "category": "tasmy-montazowe",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/29-technical-29.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/29-photo-29.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "B",
+      "C",
+      "S",
+      "D",
+      "D1"
+    ],
+    "variants": [
+      {
+        "sku": "ŁTL 001",
+        "dimensions": {
+          "B": "5000-50000",
+          "C": "12",
+          "S": "1.0",
+          "D": "4",
+          "D1": "3"
+        },
+        "packageQty": "25 mb."
+      },
+      {
+        "sku": "ŁTL 01",
+        "dimensions": {
+          "B": "5000-50000",
+          "C": "20",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "25 mb."
+      },
+      {
+        "sku": "ŁTL 1",
+        "dimensions": {
+          "B": "5000-50000",
+          "C": "25",
+          "S": "2.0",
+          "D": "4"
+        },
+        "packageQty": "25 mb."
+      },
+      {
+        "sku": "ŁTL 2",
+        "dimensions": {
+          "B": "5000-50000",
+          "C": "40",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "25 mb."
+      },
+      {
+        "sku": "ŁTL 3",
+        "dimensions": {
+          "B": "5000-50000",
+          "C": "50",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "25 mb."
+      },
+      {
+        "sku": "ŁTL 4",
+        "dimensions": {
+          "B": "5000-50000",
+          "C": "60",
+          "S": "2.0",
+          "D": "5"
+        },
+        "packageQty": "25 mb."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "30",
+    "slug": "ltl-ii-tasma",
+    "title": "ŁTL II - Taśma",
+    "titleParts": [
+      "ŁTL II - Taśma"
+    ],
+    "category": "tasmy-montazowe",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/30-technical-30.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/30-photo-30.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "B",
+      "C",
+      "C1",
+      "D",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ŁTL II 1",
+        "dimensions": {
+          "B": "5000-50000",
+          "C": "12",
+          "C1": "8",
+          "D": "4",
+          "S": "1.0"
+        },
+        "packageQty": "25 mb."
+      },
+      {
+        "sku": "ŁTL II",
+        "dimensions": {
+          "B": "5000-50000",
+          "C": "16",
+          "C1": "10",
+          "D": "6",
+          "S": "1.0"
+        },
+        "packageQty": "25 mb."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "31",
+    "slug": "ltl-iii-tasma",
+    "title": "ŁTL III - Taśma",
+    "titleParts": [
+      "ŁTL III - Taśma"
+    ],
+    "category": "tasmy-montazowe",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/31-technical-31.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/31-photo-31.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "B",
+      "C",
+      "S",
+      "D",
+      "D1"
+    ],
+    "variants": [
+      {
+        "sku": "ŁTL III",
+        "dimensions": {
+          "B": "5000-50000",
+          "C": "25",
+          "S": "2.0",
+          "D": "9",
+          "D1": "4"
+        },
+        "packageQty": "25 mb."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "24",
+    "slug": "lkpp-lacznik-budowlany-z-wkretem",
+    "title": "ŁKPP - Łącznik budowlany z wkrętem",
+    "titleParts": [
+      "ŁKPP - Łącznik budowlany z wkrętem"
+    ],
+    "category": "zlacza-ogrodowe",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/24-technical-24.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/24-photo-24.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "D1",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ŁKPP",
+        "dimensions": {
+          "A": "30",
+          "B": "30",
+          "C": "40",
+          "D": "5",
+          "D1": "7",
+          "S": "2.0"
+        },
+        "packageQty": "100 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "32",
+    "slug": "lb-1-podstawa-slupka-regulowana-na-plytce-lb-2-podstawa-slupka-regulowana-na-precie",
+    "title": "ŁB 1 - Podstawa słupka regulowana na płytce / ŁB 2 - Podstawa słupka regulowana na pręcie",
+    "titleParts": [
+      "ŁB 1 - Podstawa słupka regulowana na płytce",
+      "ŁB 2 - Podstawa słupka regulowana na pręcie"
+    ],
+    "category": "zlacza-ogrodowe",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/32-technical-32b.jpg"
+      },
+      {
+        "kind": "technical",
+        "path": "/products/legacy/32-technical-32a.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/32-photo-32.jpg"
+      },
+      {
+        "kind": "installation",
+        "path": "/products/legacy/32-installation-32a.jpg"
+      },
+      {
+        "kind": "installation",
+        "path": "/products/legacy/32-installation-32b.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "M",
+      "H",
+      "D",
+      "D1"
+    ],
+    "variants": [
+      {
+        "sku": "ŁB 1",
+        "dimensions": {
+          "A": "65",
+          "B": "145",
+          "C": "70",
+          "E": "115",
+          "M": "100",
+          "H": "200",
+          "D": "11",
+          "D1": "11"
+        },
+        "packageQty": "wg/zam."
+      },
+      {
+        "sku": "ŁB 2",
+        "dimensions": {
+          "A": "65",
+          "B": "145",
+          "C": "70",
+          "E": "115",
+          "H": "200",
+          "D": "11"
+        },
+        "packageQty": "wg/zam."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "39",
+    "slug": "lbbp-lacznik-pretowy-staly",
+    "title": "ŁBBP - Łącznik prętowy stały",
+    "titleParts": [
+      "ŁBBP - Łącznik prętowy stały"
+    ],
+    "category": "zlacza-ogrodowe",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/39-technical-39.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/39-photo-39.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ŁBBP 1",
+        "dimensions": {
+          "A": "60",
+          "B": "75",
+          "C": "230",
+          "S": "5.0"
+        },
+        "packageQty": "wg zam."
+      },
+      {
+        "sku": "ŁBBP 2",
+        "dimensions": {
+          "A": "70",
+          "B": "75",
+          "C": "230",
+          "S": "5.0"
+        },
+        "packageQty": "wg zam."
+      },
+      {
+        "sku": "ŁBBP 3",
+        "dimensions": {
+          "A": "80",
+          "B": "75",
+          "C": "230",
+          "S": "5.0"
+        },
+        "packageQty": "wg zam."
+      },
+      {
+        "sku": "ŁBBP 4",
+        "dimensions": {
+          "A": "90",
+          "B": "75",
+          "C": "230",
+          "S": "5.0"
+        },
+        "packageQty": "wg zam."
+      },
+      {
+        "sku": "ŁBBP 5",
+        "dimensions": {
+          "A": "100",
+          "B": "75",
+          "C": "230",
+          "S": "5.0"
+        },
+        "packageQty": "wg zam."
+      },
+      {
+        "sku": "ŁBBP 6",
+        "dimensions": {
+          "A": "120",
+          "B": "75",
+          "C": "230",
+          "S": "5.0"
+        },
+        "packageQty": "wg zam."
+      },
+      {
+        "sku": "ŁBBP 7",
+        "dimensions": {
+          "A": "140",
+          "B": "75",
+          "C": "230",
+          "S": "5.0"
+        },
+        "packageQty": "wg zam."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "43",
+    "slug": "lbb-1-lacznik-pretowy",
+    "title": "ŁBB 1 - Łącznik prętowy",
+    "titleParts": [
+      "ŁBB 1 - Łącznik prętowy"
+    ],
+    "category": "zlacza-ogrodowe",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/43-technical-43.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/43-photo-43.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "H",
+      "S",
+      "D"
+    ],
+    "variants": [
+      {
+        "sku": "ŁBB 1",
+        "dimensions": {
+          "A": "65",
+          "B": "70",
+          "C": "115",
+          "H": "230",
+          "S": "4",
+          "D": "11"
+        },
+        "packageQty": "wg zam."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "44",
+    "slug": "lbb-2-lacznik-pretowy",
+    "title": "ŁBB 2 - Łącznik prętowy",
+    "titleParts": [
+      "ŁBB 2 - Łącznik prętowy"
+    ],
+    "category": "zlacza-ogrodowe",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/44-technical-44.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/44-photo-44.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "H",
+      "S",
+      "M",
+      "D",
+      "D1"
+    ],
+    "variants": [
+      {
+        "sku": "ŁBB 2",
+        "dimensions": {
+          "A": "65",
+          "B": "70",
+          "C": "115",
+          "H": "70",
+          "S": "4",
+          "M": "100",
+          "D": "11",
+          "D1": "11"
+        },
+        "packageQty": "wg zam."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "65",
+    "slug": "lbu-podstawa-slupka",
+    "title": "ŁBU - Podstawa słupka",
+    "titleParts": [
+      "ŁBU - Podstawa słupka"
+    ],
+    "category": "zlacza-ogrodowe",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/65-technical-65.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/65-photo-65.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ŁBU 1",
+        "dimensions": {
+          "A": "60",
+          "B": "125",
+          "C": "75",
+          "D": "10,5",
+          "S": "5"
+        },
+        "packageQty": "1 szt."
+      },
+      {
+        "sku": "ŁBU 2",
+        "dimensions": {
+          "A": "70",
+          "B": "125",
+          "C": "75",
+          "D": "10,5",
+          "S": "5"
+        },
+        "packageQty": "1 szt."
+      },
+      {
+        "sku": "ŁBU 3",
+        "dimensions": {
+          "A": "80",
+          "B": "125",
+          "C": "75",
+          "D": "10,5",
+          "S": "5"
+        },
+        "packageQty": "1 szt."
+      },
+      {
+        "sku": "ŁBU 4",
+        "dimensions": {
+          "A": "90",
+          "B": "125",
+          "C": "75",
+          "D": "10,5",
+          "S": "5"
+        },
+        "packageQty": "1 szt."
+      },
+      {
+        "sku": "ŁBU 5",
+        "dimensions": {
+          "A": "100",
+          "B": "125",
+          "C": "75",
+          "D": "10,5",
+          "S": "5"
+        },
+        "packageQty": "1 szt."
+      },
+      {
+        "sku": "ŁBU 6",
+        "dimensions": {
+          "A": "120",
+          "B": "125",
+          "C": "75",
+          "D": "10,5",
+          "S": "5"
+        },
+        "packageQty": "1 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "45",
+    "slug": "zs-zawias-splatany",
+    "title": "ZS - Zawias splatany",
+    "titleParts": [
+      "ZS - Zawias splatany"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/45-technical-45.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/45-photo-45.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ZS 70",
+        "dimensions": {
+          "A": "70",
+          "B": "21",
+          "S": "1.5"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ZS 60",
+        "dimensions": {
+          "A": "60",
+          "B": "18.5",
+          "S": "1"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ZS 50",
+        "dimensions": {
+          "A": "50",
+          "B": "18",
+          "S": "1"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ZS 40",
+        "dimensions": {
+          "A": "40",
+          "B": "14",
+          "S": "0.8"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ZS 30",
+        "dimensions": {
+          "A": "30",
+          "B": "12.5",
+          "S": "0.8"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "ZS 25",
+        "dimensions": {
+          "A": "25",
+          "B": "8.5",
+          "S": "0.8"
+        },
+        "packageQty": "100 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "46",
+    "slug": "z-90-zawias",
+    "title": "Z 90 - Zawias",
+    "titleParts": [
+      "Z 90 - Zawias"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/46-technical-46.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/46-photo-46.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "S",
+      "C"
+    ],
+    "variants": [
+      {
+        "sku": "Z 90",
+        "dimensions": {
+          "A": "90",
+          "B": "39",
+          "S": "2.5",
+          "C": "90"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "Z 125",
+        "dimensions": {
+          "A": "112",
+          "B": "55",
+          "S": "4.0",
+          "C": "125"
+        },
+        "packageQty": "5 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "48",
+    "slug": "zp-zawias-pasowy",
+    "title": "ZP - Zawias pasowy",
+    "titleParts": [
+      "ZP - Zawias pasowy"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/48-technical-48.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/48-photo-48.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "C",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ZP 500",
+        "dimensions": {
+          "A": "500",
+          "C": "55",
+          "S": "2.5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZP 400",
+        "dimensions": {
+          "A": "400",
+          "C": "55",
+          "S": "2.5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZP 350",
+        "dimensions": {
+          "A": "350",
+          "C": "40",
+          "S": "2.5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZP 220",
+        "dimensions": {
+          "A": "220",
+          "C": "40",
+          "S": "2.5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZP 170",
+        "dimensions": {
+          "A": "170",
+          "C": "30",
+          "S": "2.0"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZP 120",
+        "dimensions": {
+          "A": "120",
+          "C": "40",
+          "S": "2.5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZP 110",
+        "dimensions": {
+          "A": "110",
+          "C": "25",
+          "S": "1.5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZP 100",
+        "dimensions": {
+          "A": "100",
+          "C": "55",
+          "S": "2.5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZP 80",
+        "dimensions": {
+          "A": "80",
+          "C": "40",
+          "S": "2.5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZP 60",
+        "dimensions": {
+          "A": "60",
+          "C": "25",
+          "S": "1.5"
+        },
+        "packageQty": "10 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "49",
+    "slug": "zk-zawias-krzyzowy",
+    "title": "ZK - Zawias krzyżowy",
+    "titleParts": [
+      "ZK - Zawias krzyżowy"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/49-technical-49.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/49-photo-49.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C1",
+      "C2",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ZKD",
+        "dimensions": {
+          "A": "350",
+          "B": "45",
+          "C1": "90",
+          "C2": "36",
+          "S": "2.5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZKŚ",
+        "dimensions": {
+          "A": "250",
+          "B": "45",
+          "C1": "90",
+          "C2": "36",
+          "S": "2.5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZKM",
+        "dimensions": {
+          "A": "100",
+          "B": "45",
+          "C1": "90",
+          "C2": "36",
+          "S": "2.5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZK300",
+        "dimensions": {
+          "A": "300",
+          "B": "65",
+          "C1": "112",
+          "C2": "40",
+          "S": "4.0"
+        },
+        "packageQty": "5 szt."
+      },
+      {
+        "sku": "ZK400",
+        "dimensions": {
+          "A": "400",
+          "B": "65",
+          "C1": "112",
+          "C2": "40",
+          "S": "4.0"
+        },
+        "packageQty": "5 szt."
+      },
+      {
+        "sku": "ZK500",
+        "dimensions": {
+          "A": "500",
+          "B": "65",
+          "C1": "112",
+          "C2": "40",
+          "S": "4.0"
+        },
+        "packageQty": "5 szt."
+      },
+      {
+        "sku": "ZK600",
+        "dimensions": {
+          "A": "600",
+          "B": "65",
+          "C1": "112",
+          "C2": "40",
+          "S": "4.0"
+        },
+        "packageQty": "5 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "50",
+    "slug": "zoz-zawias-ozdobny",
+    "title": "ZOZ - Zawias ozdobny",
+    "titleParts": [
+      "ZOZ - Zawias ozdobny"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/50-technical-50.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/50-photo-50.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "C",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ZOZ 210",
+        "dimensions": {
+          "A": "105",
+          "C": "50",
+          "S": "4.0"
+        },
+        "packageQty": "5 szt."
+      },
+      {
+        "sku": "ZOZ 170",
+        "dimensions": {
+          "A": "85",
+          "C": "40",
+          "S": "2.5"
+        },
+        "packageQty": "10 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "51",
+    "slug": "zkoz-zawias-krzyzowy-ozdobny",
+    "title": "ZKOZ - Zawias krzyżowy ozdobny",
+    "titleParts": [
+      "ZKOZ - Zawias krzyżowy ozdobny"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/51-technical-51.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/51-photo-51.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ZKOZ 600",
+        "dimensions": {
+          "A": "100",
+          "B": "500",
+          "C": "50",
+          "S": "4.0"
+        },
+        "packageQty": "5szt."
+      },
+      {
+        "sku": "ZKOZ 500",
+        "dimensions": {
+          "A": "100",
+          "B": "400",
+          "C": "50",
+          "S": "4.0"
+        },
+        "packageQty": "5szt."
+      },
+      {
+        "sku": "ZKOZ 400",
+        "dimensions": {
+          "A": "100",
+          "B": "300",
+          "C": "50",
+          "S": "4.0"
+        },
+        "packageQty": "5szt."
+      },
+      {
+        "sku": "ZKOZD",
+        "dimensions": {
+          "A": "80",
+          "B": "300",
+          "C": "40",
+          "S": "2.5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "ZKOZŚ",
+        "dimensions": {
+          "A": "80",
+          "B": "250",
+          "C": "40",
+          "S": "2.5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "ZKOZM",
+        "dimensions": {
+          "A": "80",
+          "B": "200",
+          "C": "40",
+          "S": "2.5"
+        },
+        "packageQty": "10szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "52",
+    "slug": "zpoz-zawias-pasowy-ozdobny",
+    "title": "ZPOZ - Zawias pasowy ozdobny",
+    "titleParts": [
+      "ZPOZ - Zawias pasowy ozdobny"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/52-technical-52.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/52-photo-52.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "C",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ZPOZ 1200",
+        "dimensions": {
+          "A": "600",
+          "C": "50",
+          "S": "4.0"
+        },
+        "packageQty": "5szt."
+      },
+      {
+        "sku": "ZPOZ 1000",
+        "dimensions": {
+          "A": "500",
+          "C": "50",
+          "S": "4.0"
+        },
+        "packageQty": "5szt."
+      },
+      {
+        "sku": "ZPOZ 800",
+        "dimensions": {
+          "A": "400",
+          "C": "50",
+          "S": "4.0"
+        },
+        "packageQty": "5szt."
+      },
+      {
+        "sku": "ZPOZ 600",
+        "dimensions": {
+          "A": "300",
+          "C": "40",
+          "S": "2.5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "ZPOZ 500",
+        "dimensions": {
+          "A": "250",
+          "C": "40",
+          "S": "2.5"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "ZPOZ 400",
+        "dimensions": {
+          "A": "200",
+          "C": "40",
+          "S": "2.5"
+        },
+        "packageQty": "10szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "53",
+    "slug": "wdz-wrzeciadz",
+    "title": "WDZ - Wrzeciądz",
+    "titleParts": [
+      "WDZ - Wrzeciądz"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/53-technical-53.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/53-photo-53.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "C",
+      "S",
+      "H"
+    ],
+    "variants": [
+      {
+        "sku": "WDZ 270",
+        "dimensions": {
+          "A": "270",
+          "C": "55",
+          "S": "2.5",
+          "H": "28"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "WDZ 220",
+        "dimensions": {
+          "A": "220",
+          "C": "40",
+          "S": "2.5",
+          "H": "22"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "WDZ 170",
+        "dimensions": {
+          "A": "170",
+          "C": "30",
+          "S": "2.0",
+          "H": "22.5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "WDZ 110",
+        "dimensions": {
+          "A": "110",
+          "C": "25",
+          "S": "1.5",
+          "H": "17"
+        },
+        "packageQty": "10 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "54",
+    "slug": "wk-wrzeciadz-krzyzowy",
+    "title": "WK - Wrzeciądz krzyżowy",
+    "titleParts": [
+      "WK - Wrzeciądz krzyżowy"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/54-technical-54.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/54-photo-54.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S",
+      "H"
+    ],
+    "variants": [
+      {
+        "sku": "WK",
+        "dimensions": {
+          "A": "45",
+          "B": "110",
+          "C": "90",
+          "S": "2.5",
+          "H": "22"
+        },
+        "packageQty": "10szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "55",
+    "slug": "wkoz-wrzeciadz-krzyzowy-ozdobny",
+    "title": "WKOZ - Wrzeciądz krzyżowy ozdobny",
+    "titleParts": [
+      "WKOZ - Wrzeciądz krzyżowy ozdobny"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/55-technical-55.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/55-photo-55.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S",
+      "H"
+    ],
+    "variants": [
+      {
+        "sku": "WKOZM",
+        "dimensions": {
+          "A": "200",
+          "B": "110",
+          "C": "40",
+          "S": "2.5",
+          "H": "22"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "WKOZŚ",
+        "dimensions": {
+          "A": "250",
+          "B": "110",
+          "C": "40",
+          "S": "2.5",
+          "H": "22"
+        },
+        "packageQty": "10szt."
+      },
+      {
+        "sku": "WKOZD",
+        "dimensions": {
+          "A": "300",
+          "B": "110",
+          "C": "40",
+          "S": "2.5",
+          "H": "22"
+        },
+        "packageQty": "10szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "56",
+    "slug": "wdu-ucho-wrzeciadza",
+    "title": "WDU - Ucho wrzeciądza",
+    "titleParts": [
+      "WDU - Ucho wrzeciądza"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/56-technical-56.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/56-photo-56.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "C",
+      "S",
+      "H"
+    ],
+    "variants": [
+      {
+        "sku": "WDU 60",
+        "dimensions": {
+          "A": "60",
+          "C": "50",
+          "S": "2.5",
+          "H": "28"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "WDU 50",
+        "dimensions": {
+          "A": "50",
+          "C": "38",
+          "S": "2.5",
+          "H": "22"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "WDU 45",
+        "dimensions": {
+          "A": "45",
+          "C": "30",
+          "S": "2.5",
+          "H": "22.5"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "WDU 32",
+        "dimensions": {
+          "A": "32",
+          "C": "25",
+          "S": "1.5",
+          "H": "17"
+        },
+        "packageQty": "10 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "61",
+    "slug": "zcz-zawias-czopowy",
+    "title": "ZCZ - Zawias czopowy",
+    "titleParts": [
+      "ZCZ - Zawias czopowy"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/61-technical-61.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/61-photo-61.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ZCZ 300",
+        "dimensions": {
+          "A": "300",
+          "B": "40",
+          "S": "4"
+        },
+        "packageQty": "1 szt."
+      },
+      {
+        "sku": "ZCZ 400",
+        "dimensions": {
+          "A": "400",
+          "B": "40",
+          "S": "4"
+        },
+        "packageQty": "1 szt."
+      },
+      {
+        "sku": "ZCZ 500",
+        "dimensions": {
+          "A": "500",
+          "B": "40",
+          "S": "4"
+        },
+        "packageQty": "1 szt."
+      },
+      {
+        "sku": "ZCZ 600",
+        "dimensions": {
+          "A": "600",
+          "B": "40",
+          "S": "4"
+        },
+        "packageQty": "1 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "62",
+    "slug": "ucz-uchwyt-czopowy-do-muru",
+    "title": "UCZ - Uchwyt czopowy do muru",
+    "titleParts": [
+      "UCZ - Uchwyt czopowy do muru"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/62-technical-62.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/62-photo-62.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "UCZ 250",
+        "dimensions": {
+          "A": "250",
+          "B": "40",
+          "S": "4"
+        },
+        "packageQty": "1 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "63",
+    "slug": "zu-zasuwa-wierzchnia",
+    "title": "ZU - Zasuwa wierzchnia",
+    "titleParts": [
+      "ZU - Zasuwa wierzchnia"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/63-technical-63.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/63-photo-63.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "H",
+      "D",
+      "d",
+      "g"
+    ],
+    "variants": [
+      {
+        "sku": "ZU120",
+        "dimensions": {
+          "A": "120",
+          "B": "70",
+          "C": "30",
+          "H": "65",
+          "D": "15",
+          "d": "4.5",
+          "g": "2"
+        },
+        "packageQty": "1 szt."
+      },
+      {
+        "sku": "ZU100",
+        "dimensions": {
+          "A": "100",
+          "B": "70",
+          "C": "30",
+          "H": "50",
+          "D": "13",
+          "d": "4.5",
+          "g": "2"
+        },
+        "packageQty": "1 szt."
+      },
+      {
+        "sku": "ZU70",
+        "dimensions": {
+          "A": "70",
+          "B": "70",
+          "C": "30",
+          "H": "30",
+          "D": "13",
+          "d": "4.5",
+          "g": "2"
+        },
+        "packageQty": "1 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "64",
+    "slug": "zu-zasuwa-wierzchnia-64",
+    "title": "ZU - Zasuwa wierzchnia",
+    "titleParts": [
+      "ZU - Zasuwa wierzchnia"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/64-technical-64.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/64-photo-64.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "H",
+      "D",
+      "d",
+      "g"
+    ],
+    "variants": [
+      {
+        "sku": "ZU160",
+        "dimensions": {
+          "A": "160",
+          "B": "85",
+          "C": "52",
+          "H": "80",
+          "D": "17",
+          "d": "7x7",
+          "g": "2"
+        },
+        "packageQty": "1 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "1001",
+    "slug": "zu-zasuwa-wierzchnia-1001",
+    "title": "ZU - Zasuwa wierzchnia",
+    "titleParts": [
+      "ZU - Zasuwa wierzchnia"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/1001-technical-1001.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/1001-photo-1001.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "d",
+      "g"
+    ],
+    "variants": [
+      {
+        "sku": "ZU120/42",
+        "dimensions": {
+          "A": "120",
+          "B": "42",
+          "C": "65",
+          "D": "15",
+          "d": "4.0",
+          "g": "2"
+        },
+        "packageQty": "1 szt."
+      },
+      {
+        "sku": "ZU100/40",
+        "dimensions": {
+          "A": "100",
+          "B": "40",
+          "C": "50",
+          "D": "13",
+          "d": "4.0",
+          "g": "2"
+        },
+        "packageQty": "1 szt."
+      },
+      {
+        "sku": "ZU70/40",
+        "dimensions": {
+          "A": "70",
+          "B": "40",
+          "C": "30",
+          "D": "13",
+          "d": "4.0",
+          "g": "2"
+        },
+        "packageQty": "1 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "66",
+    "slug": "zu-zasuwka-wierzchnia",
+    "title": "ZU - Zasuwka wierzchnia",
+    "titleParts": [
+      "ZU - Zasuwka wierzchnia"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/66-technical-66.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/66-photo-66.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "A1",
+      "B",
+      "L",
+      "D",
+      "D1",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ZU 62",
+        "dimensions": {
+          "A": "62",
+          "A1": "20",
+          "B": "52",
+          "L": "93.0",
+          "D": "9",
+          "D1": "4.5",
+          "S": "1"
+        },
+        "packageQty": "1 szt."
+      },
+      {
+        "sku": "ZU 52",
+        "dimensions": {
+          "A": "52",
+          "A1": "18",
+          "B": "50",
+          "L": "74.0",
+          "D": "8",
+          "D1": "4.5",
+          "S": "1"
+        },
+        "packageQty": "1 szt."
+      },
+      {
+        "sku": "ZU 42",
+        "dimensions": {
+          "A": "42",
+          "A1": "14",
+          "B": "43",
+          "L": "64.0",
+          "D": "7",
+          "D1": "3.8",
+          "S": "1"
+        },
+        "packageQty": "1 szt."
+      },
+      {
+        "sku": "ZU 32",
+        "dimensions": {
+          "A": "32",
+          "A1": "12",
+          "B": "34",
+          "L": "46.5",
+          "D": "6",
+          "D1": "3.8",
+          "S": "1"
+        },
+        "packageQty": "1 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "67",
+    "slug": "zr-zawias-meblowy-retro",
+    "title": "ZR - Zawias meblowy retro",
+    "titleParts": [
+      "ZR - Zawias meblowy retro"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/67-technical-67.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/67-photo-67.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "B1",
+      "D",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ZR 140",
+        "dimensions": {
+          "A": "141",
+          "B": "50",
+          "B1": "32",
+          "D": "3.5",
+          "S": "2"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZR 108",
+        "dimensions": {
+          "A": "108",
+          "B": "50",
+          "B1": "32",
+          "D": "3.5",
+          "S": "2"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZR 77",
+        "dimensions": {
+          "A": "77",
+          "B": "50",
+          "B1": "32",
+          "D": "3.5",
+          "S": "2"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZR 68",
+        "dimensions": {
+          "A": "68",
+          "B": "50",
+          "B1": "32",
+          "D": "3.5",
+          "S": "2"
+        },
+        "packageQty": "10 szt."
+      },
+      {
+        "sku": "ZR 60",
+        "dimensions": {
+          "A": "60",
+          "B1": "32",
+          "D": "3.5",
+          "S": "2"
+        },
+        "packageQty": "10 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "1002",
+    "slug": "zpr-zawias-pasowy-retro",
+    "title": "ZPR - Zawias pasowy retro",
+    "titleParts": [
+      "ZPR - Zawias pasowy retro"
+    ],
+    "category": "zawiasy",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/1002-technical-1002.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/1002-photo-1002.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "C",
+      "d",
+      "g"
+    ],
+    "variants": [
+      {
+        "sku": "ZPR",
+        "dimensions": {
+          "A": "157",
+          "C": "21",
+          "d": "4.5",
+          "g": "2"
+        },
+        "packageQty": "1 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "40",
+    "slug": "wu-wieszak-uniwersalny",
+    "title": "WU - Wieszak uniwersalny",
+    "titleParts": [
+      "WU - Wieszak uniwersalny"
+    ],
+    "category": "inne",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/40-technical-40.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/40-photo-40.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "C",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "WU 70",
+        "dimensions": {
+          "A": "60",
+          "B": "70",
+          "C": "30",
+          "S": "0.8"
+        },
+        "packageQty": "50 szt."
+      },
+      {
+        "sku": "WU 125",
+        "dimensions": {
+          "A": "60",
+          "B": "125",
+          "C": "30",
+          "S": "0.8"
+        },
+        "packageQty": "50 szt."
+      },
+      {
+        "sku": "WU 235",
+        "dimensions": {
+          "A": "60",
+          "B": "235",
+          "C": "30",
+          "S": "1.0"
+        },
+        "packageQty": "10 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "41",
+    "slug": "lmo-lacznik-montazowy",
+    "title": "ŁMO - Łącznik montażowy",
+    "titleParts": [
+      "ŁMO - Łącznik montażowy"
+    ],
+    "category": "inne",
+    "images": [
+      {
+        "kind": "photo",
+        "path": "/products/legacy/41-photo-41.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "B1",
+      "C",
+      "D",
+      "D1",
+      "E",
+      "E1",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ŁMO I",
+        "dimensions": {
+          "A": "185",
+          "B": "16",
+          "B1": "7",
+          "C": "26",
+          "D": "9",
+          "D1": "4",
+          "E": "12",
+          "E1": "10",
+          "S": "1.5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁMO II",
+        "dimensions": {
+          "A": "195",
+          "B": "16",
+          "B1": "7",
+          "C": "26",
+          "D": "9",
+          "D1": "4",
+          "E": "12",
+          "S": "1.5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁMO III",
+        "dimensions": {
+          "A": "205",
+          "B": "16",
+          "C": "26",
+          "D": "9",
+          "D1": "4",
+          "S": "1.5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁMOD",
+        "dimensions": {
+          "A": "160",
+          "B": "39.5",
+          "D": "9",
+          "D1": "5",
+          "S": "1"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "141",
+    "slug": "lmo-i-lacznik-montazowy",
+    "title": "ŁMO I - Łącznik montażowy",
+    "titleParts": [
+      "ŁMO I - Łącznik montażowy"
+    ],
+    "category": "inne",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/141-technical-141.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/141-photo-141.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "B1",
+      "C",
+      "D",
+      "D1",
+      "E",
+      "E1",
+      "S"
+    ],
+    "variants": [
+      {
+        "sku": "ŁMO I",
+        "dimensions": {
+          "A": "185",
+          "B": "16",
+          "B1": "7",
+          "C": "26",
+          "D": "9",
+          "D1": "4",
+          "E": "12",
+          "E1": "10",
+          "S": "1.5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁMO II",
+        "dimensions": {
+          "A": "195",
+          "B": "16",
+          "B1": "7",
+          "C": "26",
+          "D": "9",
+          "D1": "4",
+          "E": "12",
+          "S": "1.5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁMO III",
+        "dimensions": {
+          "A": "205",
+          "B": "16",
+          "C": "26",
+          "D": "9",
+          "D1": "4",
+          "S": "1.5"
+        },
+        "packageQty": "20 szt."
+      },
+      {
+        "sku": "ŁMOD",
+        "dimensions": {
+          "A": "160",
+          "B": "39.5",
+          "D": "9",
+          "D1": "5",
+          "S": "1"
+        },
+        "packageQty": "20 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "57",
+    "slug": "hw-hak-wiatrowy-wo-wkret-oczkowy",
+    "title": "HW - Hak wiatrowy / WO - Wkręt oczkowy",
+    "titleParts": [
+      "HW - Hak wiatrowy",
+      "WO - Wkręt oczkowy"
+    ],
+    "category": "inne",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/57-technical-57.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/57-photo-57.jpg"
+      }
+    ],
+    "dimensionColumns": [
+      "A",
+      "B",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "variants": [
+      {
+        "sku": "HW 350",
+        "dimensions": {
+          "A": "350",
+          "D1": "5"
+        },
+        "packageQty": "5 szt."
+      },
+      {
+        "sku": "HW 300",
+        "dimensions": {
+          "A": "300",
+          "D1": "5"
+        },
+        "packageQty": "5 szt."
+      },
+      {
+        "sku": "HW 250",
+        "dimensions": {
+          "A": "250",
+          "D1": "5"
+        },
+        "packageQty": "5 szt."
+      },
+      {
+        "sku": "HW 120",
+        "dimensions": {
+          "A": "120",
+          "D1": "5"
+        },
+        "packageQty": "50 szt."
+      },
+      {
+        "sku": "HW 100",
+        "dimensions": {
+          "A": "100",
+          "D1": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "HW 80",
+        "dimensions": {
+          "A": "80",
+          "D1": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "HW 70",
+        "dimensions": {
+          "A": "70",
+          "D1": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "HW 50",
+        "dimensions": {
+          "A": "50",
+          "D1": "4"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "WO 60",
+        "dimensions": {
+          "B": "60",
+          "D2": "6",
+          "D3": "14"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "WO 48",
+        "dimensions": {
+          "B": "48",
+          "D2": "5",
+          "D3": "7"
+        },
+        "packageQty": "100 szt."
+      },
+      {
+        "sku": "WO 40",
+        "dimensions": {
+          "B": "40",
+          "D2": "4",
+          "D3": "6"
+        },
+        "packageQty": "100 szt."
+      }
+    ],
+    "incomplete": false
+  },
+  {
+    "id": "58",
+    "slug": "inne",
+    "title": "Inne",
+    "titleParts": [
+      "Inne"
+    ],
+    "category": "inne",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/58-technical-58b.jpg"
+      },
+      {
+        "kind": "technical",
+        "path": "/products/legacy/58-technical-58a.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/58-photo-58.jpg"
+      }
+    ],
+    "dimensionColumns": [],
+    "variants": [],
+    "incomplete": true
+  },
+  {
+    "id": "59",
+    "slug": "inne-59",
+    "title": "Inne",
+    "titleParts": [
+      "Inne"
+    ],
+    "category": "inne",
+    "images": [
+      {
+        "kind": "technical",
+        "path": "/products/legacy/59-technical-59.jpg"
+      },
+      {
+        "kind": "photo",
+        "path": "/products/legacy/59-photo-59.jpg"
+      }
+    ],
+    "dimensionColumns": [],
+    "variants": [],
+    "incomplete": true
+  }
+]

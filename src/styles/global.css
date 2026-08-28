@@ -1,0 +1,60 @@
+:root {
+	--color-ink: #1b1d21;
+	--color-ink-soft: #4a4e57;
+	--color-paper: #f7f5f1;
+	--color-paper-raised: #ffffff;
+	--color-steel: #e4e1da;
+	--color-steel-line: #d3cfc5;
+	--color-accent: #d9560f;
+	--color-accent-dark: #b8460b;
+	--color-accent-ink: #fff4ec;
+
+	--font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+	--font-body: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+	--radius: 10px;
+	--container-width: 1120px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	background: var(--color-paper);
+	color: var(--color-ink);
+	font-family: var(--font-body);
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+	font-family: var(--font-display);
+	line-height: 1.15;
+	margin: 0 0 0.5em;
+}
+
+p {
+	margin: 0 0 1em;
+}
+
+a {
+	color: inherit;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.container {
+	width: 100%;
+	max-width: var(--container-width);
+	margin-inline: auto;
+	padding-inline: 1.5rem;
+}
